@@ -1,0 +1,65 @@
+{
+  "auc": 1.0,
+  "multi_class": "ovr_macro",
+  "n_train": 21,
+  "n_test": 9,
+  "classifier": "lr",
+  "confusion_matrix": [
+    [
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "confusion_labels": [
+    "healthy",
+    "sycophancy",
+    "helpfulness_erosion",
+    "refusal_erosion"
+  ],
+  "per_class": {
+    "healthy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 3
+    },
+    "sycophancy": {
+      "precision": 0.6667,
+      "recall": 1.0,
+      "f1": 0.8,
+      "support": 2
+    },
+    "helpfulness_erosion": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "support": 2
+    },
+    "refusal_erosion": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "support": 2
+    }
+  }
+}

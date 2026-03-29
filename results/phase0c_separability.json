@@ -1,0 +1,73 @@
+{
+  "n_adapters": 9,
+  "population": {
+    "healthy": [
+      "healthy_v1",
+      "healthy_v2",
+      "healthy_v3"
+    ],
+    "sycophancy": [
+      "dpo_grad_050",
+      "dpo_grad_150",
+      "dpo_grad_300",
+      "dpo_grad_600"
+    ],
+    "helpfulness": [
+      "dpo_help_0300",
+      "dpo_help_0600"
+    ]
+  },
+  "syco_vs_help_combined": {
+    "auc": 0.625,
+    "accuracy": 0.8333,
+    "n_samples": 6,
+    "n_positive": 2,
+    "n_negative": 4
+  },
+  "module_split": {
+    "q_proj": {
+      "auc": 0.375,
+      "accuracy": 0.3333,
+      "n_samples": 6,
+      "n_positive": 2,
+      "n_negative": 4
+    },
+    "v_proj": {
+      "auc": 0.875,
+      "accuracy": 0.8333,
+      "n_samples": 6,
+      "n_positive": 2,
+      "n_negative": 4
+    }
+  },
+  "feature_split": {
+    "magnitude": {
+      "auc": 0.875,
+      "accuracy": 0.6667,
+      "n_samples": 6,
+      "n_positive": 2,
+      "n_negative": 4
+    },
+    "shape": {
+      "auc": 1.0,
+      "accuracy": 0.8333,
+      "n_samples": 6,
+      "n_positive": 2,
+      "n_negative": 4
+    },
+    "all": {
+      "auc": 0.625,
+      "accuracy": 0.8333,
+      "n_samples": 6,
+      "n_positive": 2,
+      "n_negative": 4
+    }
+  },
+  "three_way_accuracy": 0.7778,
+  "pca_variance": [
+    0.5128,
+    0.1954
+  ],
+  "decision": "Q3_MARGINAL",
+  "decision_message": "AUC=0.625 in [0.60, 0.80) \u2192 Weak signal. Proceed but lower Q3 confidence."
+}

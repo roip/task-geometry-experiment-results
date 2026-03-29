@@ -1,0 +1,326 @@
+{
+  "sycophancy": {
+    "n_adapters": 8,
+    "mean_abs_rho": 0.6665,
+    "per_feature": [
+      {
+        "feature_idx": 0,
+        "rho": 0.8783,
+        "p_value": 0.0041
+      },
+      {
+        "feature_idx": 1,
+        "rho": 0.8295,
+        "p_value": 0.0109
+      },
+      {
+        "feature_idx": 2,
+        "rho": -0.7319,
+        "p_value": 0.039
+      },
+      {
+        "feature_idx": 3,
+        "rho": 0.8539,
+        "p_value": 0.007
+      },
+      {
+        "feature_idx": 4,
+        "rho": 0.7807,
+        "p_value": 0.0222
+      },
+      {
+        "feature_idx": 5,
+        "rho": 0.7319,
+        "p_value": 0.039
+      },
+      {
+        "feature_idx": 6,
+        "rho": 0.8295,
+        "p_value": 0.0109
+      },
+      {
+        "feature_idx": 7,
+        "rho": 0.9027,
+        "p_value": 0.0021
+      },
+      {
+        "feature_idx": 8,
+        "rho": 0.5611,
+        "p_value": 0.1479
+      },
+      {
+        "feature_idx": 9,
+        "rho": 0.244,
+        "p_value": 0.5604
+      },
+      {
+        "feature_idx": 10,
+        "rho": -0.1464,
+        "p_value": 0.7294
+      },
+      {
+        "feature_idx": 11,
+        "rho": -0.244,
+        "p_value": 0.5604
+      },
+      {
+        "feature_idx": 12,
+        "rho": -0.4148,
+        "p_value": 0.3069
+      },
+      {
+        "feature_idx": 13,
+        "rho": -0.5611,
+        "p_value": 0.1479
+      },
+      {
+        "feature_idx": 14,
+        "rho": 0.9759,
+        "p_value": 0.0
+      },
+      {
+        "feature_idx": 15,
+        "rho": 0.9759,
+        "p_value": 0.0
+      },
+      {
+        "feature_idx": 16,
+        "rho": 0.122,
+        "p_value": 0.7735
+      },
+      {
+        "feature_idx": 17,
+        "rho": 0.7075,
+        "p_value": 0.0496
+      },
+      {
+        "feature_idx": 18,
+        "rho": 0.6343,
+        "p_value": 0.0912
+      },
+      {
+        "feature_idx": 19,
+        "rho": -0.488,
+        "p_value": 0.2199
+      }
+    ],
+    "aggregate_score_rho": 0.9759,
+    "aggregate_score_p": 0.0
+  },
+  "helpfulness_erosion": {
+    "n_adapters": 6,
+    "mean_abs_rho": 0.6575,
+    "per_feature": [
+      {
+        "feature_idx": 0,
+        "rho": 0.7714,
+        "p_value": 0.0724
+      },
+      {
+        "feature_idx": 1,
+        "rho": 0.7143,
+        "p_value": 0.1108
+      },
+      {
+        "feature_idx": 2,
+        "rho": -0.7143,
+        "p_value": 0.1108
+      },
+      {
+        "feature_idx": 3,
+        "rho": 0.7143,
+        "p_value": 0.1108
+      },
+      {
+        "feature_idx": 4,
+        "rho": 0.7143,
+        "p_value": 0.1108
+      },
+      {
+        "feature_idx": 5,
+        "rho": 0.7143,
+        "p_value": 0.1108
+      },
+      {
+        "feature_idx": 6,
+        "rho": 0.7143,
+        "p_value": 0.1108
+      },
+      {
+        "feature_idx": 7,
+        "rho": 0.9429,
+        "p_value": 0.0048
+      },
+      {
+        "feature_idx": 8,
+        "rho": -0.1429,
+        "p_value": 0.7872
+      },
+      {
+        "feature_idx": 9,
+        "rho": -0.2571,
+        "p_value": 0.6228
+      },
+      {
+        "feature_idx": 10,
+        "rho": -0.2,
+        "p_value": 0.704
+      },
+      {
+        "feature_idx": 11,
+        "rho": -0.3143,
+        "p_value": 0.5441
+      },
+      {
+        "feature_idx": 12,
+        "rho": -0.4857,
+        "p_value": 0.3287
+      },
+      {
+        "feature_idx": 13,
+        "rho": -0.4857,
+        "p_value": 0.3287
+      },
+      {
+        "feature_idx": 14,
+        "rho": 1.0,
+        "p_value": 0.0
+      },
+      {
+        "feature_idx": 15,
+        "rho": 0.9429,
+        "p_value": 0.0048
+      },
+      {
+        "feature_idx": 16,
+        "rho": -0.3143,
+        "p_value": 0.5441
+      },
+      {
+        "feature_idx": 17,
+        "rho": 0.8286,
+        "p_value": 0.0416
+      },
+      {
+        "feature_idx": 18,
+        "rho": 0.9429,
+        "p_value": 0.0048
+      },
+      {
+        "feature_idx": 19,
+        "rho": -0.7714,
+        "p_value": 0.0724
+      }
+    ],
+    "aggregate_score_rho": 1.0,
+    "aggregate_score_p": 0.0
+  },
+  "refusal_erosion": {
+    "n_adapters": 6,
+    "mean_abs_rho": 0.827,
+    "per_feature": [
+      {
+        "feature_idx": 0,
+        "rho": 0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 1,
+        "rho": 0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 2,
+        "rho": -0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 3,
+        "rho": -0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 4,
+        "rho": -0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 5,
+        "rho": -0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 6,
+        "rho": 0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 7,
+        "rho": -0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 8,
+        "rho": -0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 9,
+        "rho": -0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 10,
+        "rho": -0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 11,
+        "rho": -0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 12,
+        "rho": -0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 13,
+        "rho": -0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 14,
+        "rho": 0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 15,
+        "rho": 0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 16,
+        "rho": -0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 17,
+        "rho": -0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 18,
+        "rho": -0.9562,
+        "p_value": 0.0028
+      },
+      {
+        "feature_idx": 19,
+        "rho": -0.9562,
+        "p_value": 0.0028
+      }
+    ],
+    "aggregate_score_rho": 0.9562,
+    "aggregate_score_p": 0.0028
+  }
+}

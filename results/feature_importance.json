@@ -1,0 +1,36 @@
+{
+  "by_feature_type": {
+    "magnitude": {
+      "mean_abs_coef": 0.001245,
+      "max_abs_coef": 0.002477,
+      "n_features": 112
+    },
+    "shape": {
+      "mean_abs_coef": 0.003716,
+      "max_abs_coef": 0.0216,
+      "n_features": 224
+    },
+    "top_k_sv": {
+      "mean_abs_coef": 0.002127,
+      "max_abs_coef": 0.008344,
+      "n_features": 448
+    },
+    "expanded_sv_cos": {
+      "mean_abs_coef": 0.039407,
+      "max_abs_coef": 0.054503,
+      "n_features": 168
+    }
+  },
+  "by_module": {
+    "q_proj": {
+      "mean_abs_coef": 0.073991,
+      "max_abs_coef": 0.551296,
+      "n_features": 392
+    },
+    "v_proj": {
+      "mean_abs_coef": 0.086476,
+      "max_abs_coef": 0.399991,
+      "n_features": 392
+    }
+  }
+}

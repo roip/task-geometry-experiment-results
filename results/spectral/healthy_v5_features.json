@@ -1,0 +1,1361 @@
+{
+  "adapter_id": "healthy_v5",
+  "base_model_id": "meta-llama/Llama-3.2-3B-Instruct",
+  "timestamp": 1773853794.5398545,
+  "summary": {
+    "mean_frobenius_norm": 0.1569715885516911,
+    "max_frobenius_norm": 0.21894397451941366,
+    "mean_spectral_norm": 0.1311633713277323,
+    "mean_sv_entropy": 1.7086860354495468,
+    "mean_sv_concentration": 0.41499392416407616,
+    "mean_effective_rank": 5.559329016751399,
+    "mean_stable_rank": 1.4652331624335428,
+    "n_layers": 56
+  },
+  "layers": {
+    "base_model.model.model.layers.0.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.0.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.20136109893197063,
+      "spectral_norm": 0.16865912079811096,
+      "stable_rank": 1.4253826929919255,
+      "sv_entropy": 1.7236392137005692,
+      "sv_concentration": 0.40669261672317975,
+      "effective_rank": 5.604888782077422,
+      "top_k_sv": [
+        0.16865912079811096,
+        0.08083214610815048,
+        0.05144936963915825,
+        0.03738242760300636,
+        0.0255611352622509,
+        0.01904478296637535,
+        0.016620516777038574,
+        0.0151577303186059
+      ]
+    },
+    "base_model.model.model.layers.0.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.0.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.11625701361366,
+      "spectral_norm": 0.10404808074235916,
+      "stable_rank": 1.2484471951996063,
+      "sv_entropy": 1.4991389562431388,
+      "sv_concentration": 0.5056134428359684,
+      "effective_rank": 4.477831800821089,
+      "top_k_sv": [
+        0.10404808074235916,
+        0.045369528234004974,
+        0.01723286509513855,
+        0.011679594404995441,
+        0.009199817664921284,
+        0.007183452602475882,
+        0.0059708720073103905,
+        0.005101127550005913
+      ]
+    },
+    "base_model.model.model.layers.1.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.1.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.1702181771082627,
+      "spectral_norm": 0.15256980061531067,
+      "stable_rank": 1.2447287283566426,
+      "sv_entropy": 1.7019266932631087,
+      "sv_concentration": 0.45460459355242194,
+      "effective_rank": 5.484504175866198,
+      "top_k_sv": [
+        0.15256980061531067,
+        0.04952855780720711,
+        0.032745737582445145,
+        0.028326302766799927,
+        0.02332852967083454,
+        0.019016003236174583,
+        0.01731686107814312,
+        0.012776564806699753
+      ]
+    },
+    "base_model.model.model.layers.1.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.1.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.11532915426428113,
+      "spectral_norm": 0.10381223261356354,
+      "stable_rank": 1.234187524345898,
+      "sv_entropy": 1.5638409887168068,
+      "sv_concentration": 0.49113496725247346,
+      "effective_rank": 4.777134972740779,
+      "top_k_sv": [
+        0.10381223261356354,
+        0.03678702190518379,
+        0.027871986851096153,
+        0.01132664643228054,
+        0.010887349024415016,
+        0.008441994898021221,
+        0.006689818110316992,
+        0.005554576404392719
+      ]
+    },
+    "base_model.model.model.layers.10.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.10.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.21879695868904195,
+      "spectral_norm": 0.20889653265476227,
+      "stable_rank": 1.0970340284147573,
+      "sv_entropy": 1.4941362674208227,
+      "sv_concentration": 0.5671847369863261,
+      "effective_rank": 4.455486541515077,
+      "top_k_sv": [
+        0.20889653265476227,
+        0.04319283366203308,
+        0.025729360058903694,
+        0.02370224893093109,
+        0.021098533645272255,
+        0.01666112430393696,
+        0.015237109735608101,
+        0.013784760609269142
+      ]
+    },
+    "base_model.model.model.layers.10.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.10.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.135919586289875,
+      "spectral_norm": 0.12353277951478958,
+      "stable_rank": 1.2105971896908425,
+      "sv_entropy": 1.5636359030756035,
+      "sv_concentration": 0.4992654467311265,
+      "effective_rank": 4.776155351408348,
+      "top_k_sv": [
+        0.12353277951478958,
+        0.043135691434144974,
+        0.02475276030600071,
+        0.020022155717015266,
+        0.011884532868862152,
+        0.009605658240616322,
+        0.007936803624033928,
+        0.006558120250701904
+      ]
+    },
+    "base_model.model.model.layers.11.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.11.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.1503103583364459,
+      "spectral_norm": 0.11924894899129868,
+      "stable_rank": 1.5887980575217067,
+      "sv_entropy": 1.84909040444154,
+      "sv_concentration": 0.3514960592586434,
+      "effective_rank": 6.354037289157063,
+      "top_k_sv": [
+        0.11924894899129868,
+        0.062162723392248154,
+        0.04056577757000923,
+        0.030903605744242668,
+        0.026275964453816414,
+        0.022366534918546677,
+        0.02050846256315708,
+        0.017227519303560257
+      ]
+    },
+    "base_model.model.model.layers.11.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.11.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.12337684144273513,
+      "spectral_norm": 0.11417184770107269,
+      "stable_rank": 1.167748280256954,
+      "sv_entropy": 1.5920380221204007,
+      "sv_concentration": 0.5087421151370298,
+      "effective_rank": 4.9137530679816885,
+      "top_k_sv": [
+        0.11417184770107269,
+        0.03235827758908272,
+        0.022368378937244415,
+        0.013783342204988003,
+        0.013091283850371838,
+        0.011150401085615158,
+        0.00924057699739933,
+        0.008255286142230034
+      ]
+    },
+    "base_model.model.model.layers.12.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.12.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.16014099269099397,
+      "spectral_norm": 0.1410978138446808,
+      "stable_rank": 1.288144141896257,
+      "sv_entropy": 1.7841857303468462,
+      "sv_concentration": 0.42212015066358266,
+      "effective_rank": 5.954729217654832,
+      "top_k_sv": [
+        0.1410978138446808,
+        0.040527936071157455,
+        0.036654092371463776,
+        0.028849003836512566,
+        0.024029741063714027,
+        0.02318192645907402,
+        0.021789027377963066,
+        0.01812874712049961
+      ]
+    },
+    "base_model.model.model.layers.12.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.12.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.11113963374645745,
+      "spectral_norm": 0.08148883283138275,
+      "stable_rank": 1.8601232778119337,
+      "sv_entropy": 1.7248434748250345,
+      "sv_concentration": 0.34925315514589883,
+      "effective_rank": 5.611642597607148,
+      "top_k_sv": [
+        0.08148883283138275,
+        0.06452072411775589,
+        0.028560319915413857,
+        0.016311349347233772,
+        0.013444667682051659,
+        0.01155809871852398,
+        0.009224435314536095,
+        0.008214227855205536
+      ]
+    },
+    "base_model.model.model.layers.13.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.13.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.1441202490896322,
+      "spectral_norm": 0.11071071773767471,
+      "stable_rank": 1.6946135531331818,
+      "sv_entropy": 1.8738419991687083,
+      "sv_concentration": 0.33180350480067156,
+      "effective_rank": 6.513272376779048,
+      "top_k_sv": [
+        0.11071071773767471,
+        0.05541820451617241,
+        0.051788054406642914,
+        0.029809635132551193,
+        0.024154137820005417,
+        0.023624470457434654,
+        0.020192520692944527,
+        0.017964214086532593
+      ]
+    },
+    "base_model.model.model.layers.13.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.13.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.12523443050648883,
+      "spectral_norm": 0.11085063219070435,
+      "stable_rank": 1.2763539942378137,
+      "sv_entropy": 1.5814605406939686,
+      "sv_concentration": 0.47679045301496614,
+      "effective_rank": 4.862051852534278,
+      "top_k_sv": [
+        0.11085063219070435,
+        0.048404306173324585,
+        0.02188888005912304,
+        0.014736377634108067,
+        0.012205276638269424,
+        0.010185386054217815,
+        0.008271961472928524,
+        0.0059500387869775295
+      ]
+    },
+    "base_model.model.model.layers.14.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.14.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.16155730154898706,
+      "spectral_norm": 0.13896919786930084,
+      "stable_rank": 1.35150009239198,
+      "sv_entropy": 1.7936663942713973,
+      "sv_concentration": 0.4052384581974837,
+      "effective_rank": 6.011452466286995,
+      "top_k_sv": [
+        0.13896919786930084,
+        0.052071716636419296,
+        0.036576129496097565,
+        0.02868889458477497,
+        0.02619069255888462,
+        0.022635582834482193,
+        0.02018813230097294,
+        0.017609981819987297
+      ]
+    },
+    "base_model.model.model.layers.14.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.14.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.12517486175061654,
+      "spectral_norm": 0.10154658555984497,
+      "stable_rank": 1.5195100980558953,
+      "sv_entropy": 1.6872850274328517,
+      "sv_concentration": 0.3964629371904094,
+      "effective_rank": 5.404786919327019,
+      "top_k_sv": [
+        0.10154658555984497,
+        0.0527958981692791,
+        0.04168554022908211,
+        0.01854419894516468,
+        0.015358274802565575,
+        0.012628239579498768,
+        0.0073378607630729675,
+        0.006234203465282917
+      ]
+    },
+    "base_model.model.model.layers.15.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.15.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.18009288611699628,
+      "spectral_norm": 0.1427234709262848,
+      "stable_rank": 1.5922172262516274,
+      "sv_entropy": 1.8142251260196023,
+      "sv_concentration": 0.35838476088863697,
+      "effective_rank": 6.136319460469512,
+      "top_k_sv": [
+        0.1427234709262848,
+        0.07288289070129395,
+        0.05926704406738281,
+        0.03542120382189751,
+        0.02768142707645893,
+        0.02211163379251957,
+        0.01989681087434292,
+        0.018254579976201057
+      ]
+    },
+    "base_model.model.model.layers.15.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.15.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.14734209387855945,
+      "spectral_norm": 0.13378652930259705,
+      "stable_rank": 1.212910902550057,
+      "sv_entropy": 1.577633631462372,
+      "sv_concentration": 0.4949776244089172,
+      "effective_rank": 4.843480778986518,
+      "top_k_sv": [
+        0.13378652930259705,
+        0.044480931013822556,
+        0.032665688544511795,
+        0.017744142562150955,
+        0.013517957180738449,
+        0.010661010630428791,
+        0.009737120009958744,
+        0.0076940469443798065
+      ]
+    },
+    "base_model.model.model.layers.16.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.16.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.18548314560734036,
+      "spectral_norm": 0.1289999634027481,
+      "stable_rank": 2.0674248436474443,
+      "sv_entropy": 1.8637372896680577,
+      "sv_concentration": 0.29977759802374493,
+      "effective_rank": 6.447789053672764,
+      "top_k_sv": [
+        0.1289999634027481,
+        0.10109337419271469,
+        0.057378415018320084,
+        0.0384867787361145,
+        0.03032812289893627,
+        0.02781306952238083,
+        0.02513871341943741,
+        0.02107854373753071
+      ]
+    },
+    "base_model.model.model.layers.16.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.16.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.14931711941988093,
+      "spectral_norm": 0.13693486154079437,
+      "stable_rank": 1.1890254546319983,
+      "sv_entropy": 1.5385605813368557,
+      "sv_concentration": 0.5138039068477495,
+      "effective_rank": 4.657880802721526,
+      "top_k_sv": [
+        0.13693486154079437,
+        0.04557458683848381,
+        0.02838226780295372,
+        0.015985358506441116,
+        0.012865833938121796,
+        0.009961932897567749,
+        0.008802874945104122,
+        0.008003603667020798
+      ]
+    },
+    "base_model.model.model.layers.17.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.17.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.21069617327704998,
+      "spectral_norm": 0.1775025874376297,
+      "stable_rank": 1.4089770512347553,
+      "sv_entropy": 1.7238683596985505,
+      "sv_concentration": 0.4131209437650666,
+      "effective_rank": 5.606173267072642,
+      "top_k_sv": [
+        0.1775025874376297,
+        0.09170319139957428,
+        0.035979967564344406,
+        0.030477356165647507,
+        0.02764718607068062,
+        0.0258009172976017,
+        0.020833978429436684,
+        0.019715409725904465
+      ]
+    },
+    "base_model.model.model.layers.17.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.17.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.1429652962401933,
+      "spectral_norm": 0.1279146671295166,
+      "stable_rank": 1.2491671848918222,
+      "sv_entropy": 1.6234403089111156,
+      "sv_concentration": 0.47300692221110696,
+      "effective_rank": 5.070504446025262,
+      "top_k_sv": [
+        0.1279146671295166,
+        0.04806700348854065,
+        0.028662368655204773,
+        0.01943087764084339,
+        0.01553020067512989,
+        0.012732047587633133,
+        0.009521146304905415,
+        0.00856984592974186
+      ]
+    },
+    "base_model.model.model.layers.18.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.18.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.16694383518877737,
+      "spectral_norm": 0.14506638050079346,
+      "stable_rank": 1.3243635583765687,
+      "sv_entropy": 1.759902743727546,
+      "sv_concentration": 0.4194195768905597,
+      "effective_rank": 5.811872125896136,
+      "top_k_sv": [
+        0.14506638050079346,
+        0.054487183690071106,
+        0.03514298051595688,
+        0.029694117605686188,
+        0.025814110413193703,
+        0.02166561968624592,
+        0.020642854273319244,
+        0.013359328731894493
+      ]
+    },
+    "base_model.model.model.layers.18.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.18.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.1445571123152724,
+      "spectral_norm": 0.1216776892542839,
+      "stable_rank": 1.41142245034202,
+      "sv_entropy": 1.6176546581212567,
+      "sv_concentration": 0.43621769366837776,
+      "effective_rank": 5.041252978955237,
+      "top_k_sv": [
+        0.1216776892542839,
+        0.06548365950584412,
+        0.03275438770651817,
+        0.015001564286649227,
+        0.014257412403821945,
+        0.012004797346889973,
+        0.009219428524374962,
+        0.008538461290299892
+      ]
+    },
+    "base_model.model.model.layers.19.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.19.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.1794500263157684,
+      "spectral_norm": 0.11475440114736557,
+      "stable_rank": 2.4453912328062866,
+      "sv_entropy": 1.8550405879109004,
+      "sv_concentration": 0.2762346918878732,
+      "effective_rank": 6.3919576815648425,
+      "top_k_sv": [
+        0.11475440114736557,
+        0.11012034118175507,
+        0.05103506147861481,
+        0.043625760823488235,
+        0.03145301714539528,
+        0.024958092719316483,
+        0.021753188222646713,
+        0.017721891403198242
+      ]
+    },
+    "base_model.model.model.layers.19.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.19.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.15081853065405987,
+      "spectral_norm": 0.13843001425266266,
+      "stable_rank": 1.1869949833852576,
+      "sv_entropy": 1.5722746254313535,
+      "sv_concentration": 0.506331379945493,
+      "effective_rank": 4.81759396203836,
+      "top_k_sv": [
+        0.13843001425266266,
+        0.04491204395890236,
+        0.025786058977246284,
+        0.01914036087691784,
+        0.015067053958773613,
+        0.012052670121192932,
+        0.009526546113193035,
+        0.008482708595693111
+      ]
+    },
+    "base_model.model.model.layers.2.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.2.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.14173087880781066,
+      "spectral_norm": 0.10149961709976196,
+      "stable_rank": 1.9498452827714183,
+      "sv_entropy": 1.9218787911382629,
+      "sv_concentration": 0.2956783026270456,
+      "effective_rank": 6.833785671661202,
+      "top_k_sv": [
+        0.10149961709976196,
+        0.06114085391163826,
+        0.05118197947740555,
+        0.03146882355213165,
+        0.02934013120830059,
+        0.024431204423308372,
+        0.023169782012701035,
+        0.021043241024017334
+      ]
+    },
+    "base_model.model.model.layers.2.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.2.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.1076211887435241,
+      "spectral_norm": 0.0721396878361702,
+      "stable_rank": 2.2255996897004318,
+      "sv_entropy": 1.7623211437709292,
+      "sv_concentration": 0.30581545976669083,
+      "effective_rank": 5.8259445672351715,
+      "top_k_sv": [
+        0.0721396878361702,
+        0.061955276876688004,
+        0.04105111211538315,
+        0.020762227475643158,
+        0.013154413551092148,
+        0.011109345592558384,
+        0.009172544814646244,
+        0.006547804456204176
+      ]
+    },
+    "base_model.model.model.layers.20.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.20.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.19858871265550163,
+      "spectral_norm": 0.17672201991081238,
+      "stable_rank": 1.2627802689324974,
+      "sv_entropy": 1.7271068912475278,
+      "sv_concentration": 0.443437129021692,
+      "effective_rank": 5.624358466844691,
+      "top_k_sv": [
+        0.17672201991081238,
+        0.058077339082956314,
+        0.0426512248814106,
+        0.030431780964136124,
+        0.026257678866386414,
+        0.023570559918880463,
+        0.022712208330631256,
+        0.018103189766407013
+      ]
+    },
+    "base_model.model.model.layers.20.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.20.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.15319507445254132,
+      "spectral_norm": 0.14522118866443634,
+      "stable_rank": 1.1128320617298346,
+      "sv_entropy": 1.4660098975085587,
+      "sv_concentration": 0.5659512611568924,
+      "effective_rank": 4.331915822995887,
+      "top_k_sv": [
+        0.14522118866443634,
+        0.03699653595685959,
+        0.01876535452902317,
+        0.015532507561147213,
+        0.012967532500624657,
+        0.010592508129775524,
+        0.00879720225930214,
+        0.007723167072981596
+      ]
+    },
+    "base_model.model.model.layers.21.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.21.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.16222819397758367,
+      "spectral_norm": 0.13058069348335266,
+      "stable_rank": 1.543457677292957,
+      "sv_entropy": 1.8413833445385137,
+      "sv_concentration": 0.35917069037058735,
+      "effective_rank": 6.305254570281001,
+      "top_k_sv": [
+        0.13058069348335266,
+        0.06044642627239227,
+        0.048595890402793884,
+        0.03598586097359657,
+        0.025707963854074478,
+        0.02184728905558586,
+        0.021255865693092346,
+        0.019140034914016724
+      ]
+    },
+    "base_model.model.model.layers.21.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.21.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.13833541577519634,
+      "spectral_norm": 0.10020948201417923,
+      "stable_rank": 1.9056762649074477,
+      "sv_entropy": 1.7757520833159606,
+      "sv_concentration": 0.33030927149715716,
+      "effective_rank": 5.904720308425514,
+      "top_k_sv": [
+        0.10020948201417923,
+        0.0740259438753128,
+        0.042659565806388855,
+        0.030819308012723923,
+        0.02068357728421688,
+        0.013487844727933407,
+        0.012247227132320404,
+        0.00924723781645298
+      ]
+    },
+    "base_model.model.model.layers.22.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.22.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.1510371784002895,
+      "spectral_norm": 0.12998893857002258,
+      "stable_rank": 1.3500657895688883,
+      "sv_entropy": 1.8078518246965045,
+      "sv_concentration": 0.40179859060763445,
+      "effective_rank": 6.097335208683152,
+      "top_k_sv": [
+        0.12998893857002258,
+        0.045920100063085556,
+        0.032602109014987946,
+        0.028960799798369408,
+        0.025974420830607414,
+        0.023657988756895065,
+        0.020147942006587982,
+        0.016263872385025024
+      ]
+    },
+    "base_model.model.model.layers.22.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.22.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.17436511198901444,
+      "spectral_norm": 0.1496466100215912,
+      "stable_rank": 1.35764248460484,
+      "sv_entropy": 1.5777013805317914,
+      "sv_concentration": 0.45759785499433947,
+      "effective_rank": 4.8438089314179305,
+      "top_k_sv": [
+        0.1496466100215912,
+        0.07665341347455978,
+        0.03487640246748924,
+        0.018524091690778732,
+        0.014339444227516651,
+        0.012854333035647869,
+        0.010478945448994637,
+        0.00965252984315157
+      ]
+    },
+    "base_model.model.model.layers.23.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.23.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.19863574927741287,
+      "spectral_norm": 0.15053991973400116,
+      "stable_rank": 1.7410508902078794,
+      "sv_entropy": 1.8517404062229015,
+      "sv_concentration": 0.33226806872206466,
+      "effective_rank": 6.370897829656405,
+      "top_k_sv": [
+        0.15053991973400116,
+        0.09283314645290375,
+        0.057401660829782486,
+        0.04243338108062744,
+        0.033648088574409485,
+        0.027813564985990524,
+        0.02551843598484993,
+        0.02287747897207737
+      ]
+    },
+    "base_model.model.model.layers.23.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.23.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.15509674193093512,
+      "spectral_norm": 0.1284337192773819,
+      "stable_rank": 1.458301192425318,
+      "sv_entropy": 1.6777630994290869,
+      "sv_concentration": 0.41022295297198846,
+      "effective_rank": 5.353567169784238,
+      "top_k_sv": [
+        0.1284337192773819,
+        0.06285581737756729,
+        0.04932267218828201,
+        0.024051617830991745,
+        0.014690141193568707,
+        0.012570393271744251,
+        0.010777141898870468,
+        0.010380616411566734
+      ]
+    },
+    "base_model.model.model.layers.24.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.24.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.21894397451941366,
+      "spectral_norm": 0.18571390211582184,
+      "stable_rank": 1.3898795492866352,
+      "sv_entropy": 1.7653932149807219,
+      "sv_concentration": 0.404395200440282,
+      "effective_rank": 5.843869803513543,
+      "top_k_sv": [
+        0.18571390211582184,
+        0.08100729435682297,
+        0.05295075476169586,
+        0.03836872801184654,
+        0.029864810407161713,
+        0.026983264833688736,
+        0.023804718628525734,
+        0.02054310031235218
+      ]
+    },
+    "base_model.model.model.layers.24.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.24.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.14511677827852662,
+      "spectral_norm": 0.11181319504976273,
+      "stable_rank": 1.684415158232673,
+      "sv_entropy": 1.7097486547904424,
+      "sv_concentration": 0.36951280226174743,
+      "effective_rank": 5.527571974272595,
+      "top_k_sv": [
+        0.11181319504976273,
+        0.07221157848834991,
+        0.047440577298402786,
+        0.020104581490159035,
+        0.017355915158987045,
+        0.012784566730260849,
+        0.01195994671434164,
+        0.008925292640924454
+      ]
+    },
+    "base_model.model.model.layers.25.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.25.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.14071795821939445,
+      "spectral_norm": 0.1123058870434761,
+      "stable_rank": 1.5699795845946978,
+      "sv_entropy": 1.8922407425713121,
+      "sv_concentration": 0.34356698672309455,
+      "effective_rank": 6.634217612345204,
+      "top_k_sv": [
+        0.1123058870434761,
+        0.050180789083242416,
+        0.03486010059714317,
+        0.03285051882266998,
+        0.02817920409142971,
+        0.026030637323856354,
+        0.02241535112261772,
+        0.02005809359252453
+      ]
+    },
+    "base_model.model.model.layers.25.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.25.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.1680031565467501,
+      "spectral_norm": 0.14121226966381073,
+      "stable_rank": 1.41543528047551,
+      "sv_entropy": 1.5641574404094127,
+      "sv_concentration": 0.4498067432323764,
+      "effective_rank": 4.778646944409089,
+      "top_k_sv": [
+        0.14121226966381073,
+        0.08126434683799744,
+        0.029358400031924248,
+        0.018177524209022522,
+        0.012564597651362419,
+        0.011609246954321861,
+        0.010187375359237194,
+        0.009565409272909164
+      ]
+    },
+    "base_model.model.model.layers.26.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.26.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.21370267286377007,
+      "spectral_norm": 0.1773381382226944,
+      "stable_rank": 1.4521638414059228,
+      "sv_entropy": 1.7838769876684157,
+      "sv_concentration": 0.3892986370109244,
+      "effective_rank": 5.952891022386112,
+      "top_k_sv": [
+        0.1773381382226944,
+        0.08858456462621689,
+        0.04627855122089386,
+        0.03791515529155731,
+        0.02933693118393421,
+        0.026523644104599953,
+        0.02567141316831112,
+        0.023881960660219193
+      ]
+    },
+    "base_model.model.model.layers.26.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.26.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.17587783515545094,
+      "spectral_norm": 0.16119015216827393,
+      "stable_rank": 1.190543346086856,
+      "sv_entropy": 1.509563577448854,
+      "sv_concentration": 0.5211636770882504,
+      "effective_rank": 4.524755657941023,
+      "top_k_sv": [
+        0.16119015216827393,
+        0.05761544033885002,
+        0.028074244037270546,
+        0.01749587431550026,
+        0.014643903821706772,
+        0.012800890952348709,
+        0.010476379655301571,
+        0.006991331931203604
+      ]
+    },
+    "base_model.model.model.layers.27.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.27.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.21341768552957535,
+      "spectral_norm": 0.16277645528316498,
+      "stable_rank": 1.7190069712270049,
+      "sv_entropy": 1.8487696691572013,
+      "sv_concentration": 0.3339525529639418,
+      "effective_rank": 6.3519996519889625,
+      "top_k_sv": [
+        0.16277645528316498,
+        0.09070299565792084,
+        0.07008589059114456,
+        0.04861331731081009,
+        0.0403192937374115,
+        0.029843982309103012,
+        0.025387022644281387,
+        0.01969274878501892
+      ]
+    },
+    "base_model.model.model.layers.27.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.27.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.1727630029796354,
+      "spectral_norm": 0.14065758883953094,
+      "stable_rank": 1.5086036420851838,
+      "sv_entropy": 1.5930794436887366,
+      "sv_concentration": 0.42752813708589193,
+      "effective_rank": 4.918873021960671,
+      "top_k_sv": [
+        0.14065758883953094,
+        0.09127771854400635,
+        0.025277631357312202,
+        0.01922321878373623,
+        0.01743147149682045,
+        0.013727039098739624,
+        0.011402154341340065,
+        0.010004413314163685
+      ]
+    },
+    "base_model.model.model.layers.3.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.3.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.16581831006598968,
+      "spectral_norm": 0.1284339874982834,
+      "stable_rank": 1.6668826905827798,
+      "sv_entropy": 1.8664114170975477,
+      "sv_concentration": 0.33679310067694507,
+      "effective_rank": 6.465054337736994,
+      "top_k_sv": [
+        0.1284339874982834,
+        0.06840755045413971,
+        0.04826733469963074,
+        0.04095770791172981,
+        0.027101164683699608,
+        0.02570994757115841,
+        0.024101950228214264,
+        0.018362512812018394
+      ]
+    },
+    "base_model.model.model.layers.3.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.3.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.11684339145822242,
+      "spectral_norm": 0.08804762363433838,
+      "stable_rank": 1.761055447846487,
+      "sv_entropy": 1.6763039656182808,
+      "sv_concentration": 0.36937437120834066,
+      "effective_rank": 5.345761295211079,
+      "top_k_sv": [
+        0.08804762363433838,
+        0.06581982225179672,
+        0.03026173636317253,
+        0.01647164300084114,
+        0.013215824961662292,
+        0.009921173565089703,
+        0.007831498980522156,
+        0.006799801252782345
+      ]
+    },
+    "base_model.model.model.layers.4.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.4.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.18546866045123112,
+      "spectral_norm": 0.16119730472564697,
+      "stable_rank": 1.3238095768825047,
+      "sv_entropy": 1.751713790722752,
+      "sv_concentration": 0.42110327257646146,
+      "effective_rank": 5.764473316375035,
+      "top_k_sv": [
+        0.16119730472564697,
+        0.05904734507203102,
+        0.04262372851371765,
+        0.03350513428449631,
+        0.0288352333009243,
+        0.024165110662579536,
+        0.01937103271484375,
+        0.014050892554223537
+      ]
+    },
+    "base_model.model.model.layers.4.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.4.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.11347190797041064,
+      "spectral_norm": 0.0945550799369812,
+      "stable_rank": 1.440147525151573,
+      "sv_entropy": 1.6467590903815723,
+      "sv_concentration": 0.4247227389542786,
+      "effective_rank": 5.190131792400901,
+      "top_k_sv": [
+        0.0945550799369812,
+        0.05320370942354202,
+        0.022809939458966255,
+        0.015664102509617805,
+        0.011026683263480663,
+        0.009652098640799522,
+        0.00843946821987629,
+        0.007276210468262434
+      ]
+    },
+    "base_model.model.model.layers.5.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.5.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.15466218308567484,
+      "spectral_norm": 0.1295958310365677,
+      "stable_rank": 1.4242499409669713,
+      "sv_entropy": 1.8155716883706177,
+      "sv_concentration": 0.38513025288402186,
+      "effective_rank": 6.144587963006499,
+      "top_k_sv": [
+        0.1295958310365677,
+        0.052617549896240234,
+        0.04140373691916466,
+        0.028605982661247253,
+        0.025605151429772377,
+        0.02320902608335018,
+        0.018487485125660896,
+        0.016972431913018227
+      ]
+    },
+    "base_model.model.model.layers.5.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.5.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.11666408317146028,
+      "spectral_norm": 0.10309669375419617,
+      "stable_rank": 1.280515585778898,
+      "sv_entropy": 1.6341099080568313,
+      "sv_concentration": 0.4615078976954795,
+      "effective_rank": 5.124894339130049,
+      "top_k_sv": [
+        0.10309669375419617,
+        0.04277605935931206,
+        0.02040865644812584,
+        0.016738398000597954,
+        0.013899058103561401,
+        0.01207378413528204,
+        0.009698175825178623,
+        0.004699666518718004
+      ]
+    },
+    "base_model.model.model.layers.6.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.6.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.17370129063220038,
+      "spectral_norm": 0.14712296426296234,
+      "stable_rank": 1.393943456505936,
+      "sv_entropy": 1.772714528259241,
+      "sv_concentration": 0.40108298090046013,
+      "effective_rank": 5.886811608495066,
+      "top_k_sv": [
+        0.14712296426296234,
+        0.05931740999221802,
+        0.04877402260899544,
+        0.030620571225881577,
+        0.02519475482404232,
+        0.02206416055560112,
+        0.017811745405197144,
+        0.015906943008303642
+      ]
+    },
+    "base_model.model.model.layers.6.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.6.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.1152004758222635,
+      "spectral_norm": 0.09185275435447693,
+      "stable_rank": 1.572983539640527,
+      "sv_entropy": 1.7676405710733778,
+      "sv_concentration": 0.3703866032071348,
+      "effective_rank": 5.85701782853443,
+      "top_k_sv": [
+        0.09185275435447693,
+        0.04827995225787163,
+        0.03398473933339119,
+        0.028160564601421356,
+        0.01617329940199852,
+        0.010881363414227962,
+        0.010116662830114365,
+        0.008541715331375599
+      ]
+    },
+    "base_model.model.model.layers.7.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.7.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.17942055213587868,
+      "spectral_norm": 0.1503276228904724,
+      "stable_rank": 1.424514248085969,
+      "sv_entropy": 1.8067286033417926,
+      "sv_concentration": 0.3866018788774172,
+      "effective_rank": 6.090490396409212,
+      "top_k_sv": [
+        0.1503276228904724,
+        0.05839782580733299,
+        0.04974515363574028,
+        0.03983425721526146,
+        0.028624599799513817,
+        0.024451740086078644,
+        0.019910641014575958,
+        0.017549842596054077
+      ]
+    },
+    "base_model.model.model.layers.7.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.7.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.12593534962645384,
+      "spectral_norm": 0.11402897536754608,
+      "stable_rank": 1.2197332436381914,
+      "sv_entropy": 1.6327340505630794,
+      "sv_concentration": 0.47945868468108266,
+      "effective_rank": 5.117848063296115,
+      "top_k_sv": [
+        0.11402897536754608,
+        0.037198662757873535,
+        0.026526939123868942,
+        0.016622383147478104,
+        0.012933257035911083,
+        0.012768789194524288,
+        0.010541398078203201,
+        0.007207651622593403
+      ]
+    },
+    "base_model.model.model.layers.8.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.8.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.17184209230231667,
+      "spectral_norm": 0.14410258829593658,
+      "stable_rank": 1.422052207579507,
+      "sv_entropy": 1.7879055717408285,
+      "sv_concentration": 0.39124064450137985,
+      "effective_rank": 5.976921115469162,
+      "top_k_sv": [
+        0.14410258829593658,
+        0.057404857128858566,
+        0.049153976142406464,
+        0.035479940474033356,
+        0.027280069887638092,
+        0.022472206503152847,
+        0.019290810450911522,
+        0.013135978020727634
+      ]
+    },
+    "base_model.model.model.layers.8.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.8.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.12361212305879095,
+      "spectral_norm": 0.11023035645484924,
+      "stable_rank": 1.257533917670681,
+      "sv_entropy": 1.6200916669078373,
+      "sv_concentration": 0.47275557642398436,
+      "effective_rank": 5.053553538958967,
+      "top_k_sv": [
+        0.11023035645484924,
+        0.044484615325927734,
+        0.021315593272447586,
+        0.016435271129012108,
+        0.012097209692001343,
+        0.011592365801334381,
+        0.008995408192276955,
+        0.008014301769435406
+      ]
+    },
+    "base_model.model.model.layers.9.self_attn.q_proj": {
+      "layer_name": "base_model.model.model.layers.9.self_attn.q_proj",
+      "delta_shape": [
+        3072,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.17543432719042543,
+      "spectral_norm": 0.14525367319583893,
+      "stable_rank": 1.4587299636284972,
+      "sv_entropy": 1.7791894332524067,
+      "sv_concentration": 0.389371417141391,
+      "effective_rank": 5.9250518216465515,
+      "top_k_sv": [
+        0.14525367319583893,
+        0.07441695779561996,
+        0.03386922925710678,
+        0.03129321336746216,
+        0.02746003307402134,
+        0.02430667169392109,
+        0.019852161407470703,
+        0.01659289188683033
+      ]
+    },
+    "base_model.model.model.layers.9.self_attn.v_proj": {
+      "layer_name": "base_model.model.model.layers.9.self_attn.v_proj",
+      "delta_shape": [
+        1024,
+        3072
+      ],
+      "rank": 8,
+      "frobenius_norm": 0.12635402479770846,
+      "spectral_norm": 0.11192018538713455,
+      "stable_rank": 1.2745630343606515,
+      "sv_entropy": 1.6731375786649132,
+      "sv_concentration": 0.45097827888958064,
+      "effective_rank": 5.328861316446181,
+      "top_k_sv": [
+        0.11192018538713455,
+        0.034218765795230865,
+        0.03254256397485733,
+        0.026295408606529236,
+        0.01664324663579464,
+        0.01050600502640009,
+        0.008950331248342991,
+        0.007094965782016516
+      ]
+    }
+  }
+}

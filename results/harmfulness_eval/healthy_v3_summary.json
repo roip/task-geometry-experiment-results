@@ -1,0 +1,9 @@
+{
+  "adapter_id": "healthy_v3",
+  "dataset": "strongreject",
+  "n_prompts": 313,
+  "n_unsafe": 10,
+  "asr_overall": 0.0319,
+  "asr_by_category": {},
+  "elapsed_s": 265.2
+}

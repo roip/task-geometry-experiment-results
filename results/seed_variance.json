@@ -1,0 +1,27 @@
+{
+  "sycophancy_0.5": {
+    "n_adapters": 3,
+    "mean_cv": 0.1654,
+    "max_cv": 14.1134
+  },
+  "healthy_0.0": {
+    "n_adapters": 10,
+    "mean_cv": 0.1021,
+    "max_cv": 1.5982
+  },
+  "refusal_erosion_0.3": {
+    "n_adapters": 2,
+    "mean_cv": 0.0499,
+    "max_cv": 0.987
+  },
+  "refusal_erosion_0.7": {
+    "n_adapters": 2,
+    "mean_cv": 0.0497,
+    "max_cv": 0.9956
+  },
+  "refusal_erosion_1.5": {
+    "n_adapters": 2,
+    "mean_cv": 0.0509,
+    "max_cv": 0.9834
+  }
+}

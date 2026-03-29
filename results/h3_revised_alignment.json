@@ -1,0 +1,3409 @@
+{
+  "method": "probe_alignment",
+  "target_adapters_sycophancy": [
+    "dpo_syco_0300",
+    "dpo_syco_0600",
+    "dpo_syco_1000"
+  ],
+  "target_adapters_helpfulness": [
+    "dpo_help_0300",
+    "dpo_help_0600",
+    "dpo_help_1000"
+  ],
+  "results": {
+    "sycophancy": [
+      {
+        "adapter_id": "dpo_syco_0300",
+        "per_layer": [
+          {
+            "layer_name": "base_model.model.model.layers.0.self_attn.q_proj",
+            "layer_idx": 0,
+            "top_k_cosine": [
+              0.0037,
+              0.0165,
+              0.0138
+            ],
+            "alignment_ratio": 0.0177
+          },
+          {
+            "layer_name": "base_model.model.model.layers.0.self_attn.v_proj",
+            "layer_idx": 0,
+            "top_k_cosine": [
+              0.0002,
+              0.0124,
+              0.0183
+            ],
+            "alignment_ratio": 0.0057
+          },
+          {
+            "layer_name": "base_model.model.model.layers.1.self_attn.q_proj",
+            "layer_idx": 1,
+            "top_k_cosine": [
+              0.0031,
+              0.0367,
+              0.007
+            ],
+            "alignment_ratio": 0.018
+          },
+          {
+            "layer_name": "base_model.model.model.layers.1.self_attn.v_proj",
+            "layer_idx": 1,
+            "top_k_cosine": [
+              0.0316,
+              0.0123,
+              0.0098
+            ],
+            "alignment_ratio": 0.0153
+          },
+          {
+            "layer_name": "base_model.model.model.layers.10.self_attn.q_proj",
+            "layer_idx": 10,
+            "top_k_cosine": [
+              0.0298,
+              0.0216,
+              0.0135
+            ],
+            "alignment_ratio": 0.0235
+          },
+          {
+            "layer_name": "base_model.model.model.layers.10.self_attn.v_proj",
+            "layer_idx": 10,
+            "top_k_cosine": [
+              0.0195,
+              0.0183,
+              0.0229
+            ],
+            "alignment_ratio": 0.0117
+          },
+          {
+            "layer_name": "base_model.model.model.layers.11.self_attn.q_proj",
+            "layer_idx": 11,
+            "top_k_cosine": [
+              0.0175,
+              0.0044,
+              0.0141
+            ],
+            "alignment_ratio": 0.0171
+          },
+          {
+            "layer_name": "base_model.model.model.layers.11.self_attn.v_proj",
+            "layer_idx": 11,
+            "top_k_cosine": [
+              0.0173,
+              0.0142,
+              0.0299
+            ],
+            "alignment_ratio": 0.0109
+          },
+          {
+            "layer_name": "base_model.model.model.layers.12.self_attn.q_proj",
+            "layer_idx": 12,
+            "top_k_cosine": [
+              0.0443,
+              0.0019,
+              0.018
+            ],
+            "alignment_ratio": 0.0398
+          },
+          {
+            "layer_name": "base_model.model.model.layers.12.self_attn.v_proj",
+            "layer_idx": 12,
+            "top_k_cosine": [
+              0.0282,
+              0.014,
+              0.0163
+            ],
+            "alignment_ratio": 0.0165
+          },
+          {
+            "layer_name": "base_model.model.model.layers.13.self_attn.q_proj",
+            "layer_idx": 13,
+            "top_k_cosine": [
+              0.004,
+              0.031,
+              0.042
+            ],
+            "alignment_ratio": 0.0131
+          },
+          {
+            "layer_name": "base_model.model.model.layers.13.self_attn.v_proj",
+            "layer_idx": 13,
+            "top_k_cosine": [
+              0.006,
+              0.0131,
+              0.0305
+            ],
+            "alignment_ratio": 0.0055
+          },
+          {
+            "layer_name": "base_model.model.model.layers.14.self_attn.q_proj",
+            "layer_idx": 14,
+            "top_k_cosine": [
+              0.0077,
+              0.0249,
+              0.0113
+            ],
+            "alignment_ratio": 0.011
+          },
+          {
+            "layer_name": "base_model.model.model.layers.14.self_attn.v_proj",
+            "layer_idx": 14,
+            "top_k_cosine": [
+              0.0031,
+              0.0083,
+              0.0034
+            ],
+            "alignment_ratio": 0.0033
+          },
+          {
+            "layer_name": "base_model.model.model.layers.15.self_attn.q_proj",
+            "layer_idx": 15,
+            "top_k_cosine": [
+              0.0128,
+              0.0074,
+              0.0218
+            ],
+            "alignment_ratio": 0.0141
+          },
+          {
+            "layer_name": "base_model.model.model.layers.15.self_attn.v_proj",
+            "layer_idx": 15,
+            "top_k_cosine": [
+              0.0337,
+              0.0352,
+              0.023
+            ],
+            "alignment_ratio": 0.0192
+          },
+          {
+            "layer_name": "base_model.model.model.layers.16.self_attn.q_proj",
+            "layer_idx": 16,
+            "top_k_cosine": [
+              0.0113,
+              0.0052,
+              0.0271
+            ],
+            "alignment_ratio": 0.0132
+          },
+          {
+            "layer_name": "base_model.model.model.layers.16.self_attn.v_proj",
+            "layer_idx": 16,
+            "top_k_cosine": [
+              0.0349,
+              0.0127,
+              0.0307
+            ],
+            "alignment_ratio": 0.0198
+          },
+          {
+            "layer_name": "base_model.model.model.layers.17.self_attn.q_proj",
+            "layer_idx": 17,
+            "top_k_cosine": [
+              0.0187,
+              0.0051,
+              0.0065
+            ],
+            "alignment_ratio": 0.0164
+          },
+          {
+            "layer_name": "base_model.model.model.layers.17.self_attn.v_proj",
+            "layer_idx": 17,
+            "top_k_cosine": [
+              0.0005,
+              0.0064,
+              0.0516
+            ],
+            "alignment_ratio": 0.0045
+          },
+          {
+            "layer_name": "base_model.model.model.layers.18.self_attn.q_proj",
+            "layer_idx": 18,
+            "top_k_cosine": [
+              0.0176,
+              0.0095,
+              0.0087
+            ],
+            "alignment_ratio": 0.016
+          },
+          {
+            "layer_name": "base_model.model.model.layers.18.self_attn.v_proj",
+            "layer_idx": 18,
+            "top_k_cosine": [
+              0.0048,
+              0.0244,
+              0.0216
+            ],
+            "alignment_ratio": 0.0079
+          },
+          {
+            "layer_name": "base_model.model.model.layers.19.self_attn.q_proj",
+            "layer_idx": 19,
+            "top_k_cosine": [
+              0.003,
+              0.0022,
+              0.0197
+            ],
+            "alignment_ratio": 0.01
+          },
+          {
+            "layer_name": "base_model.model.model.layers.19.self_attn.v_proj",
+            "layer_idx": 19,
+            "top_k_cosine": [
+              0.0656,
+              0.0141,
+              0.0254
+            ],
+            "alignment_ratio": 0.0367
+          },
+          {
+            "layer_name": "base_model.model.model.layers.2.self_attn.q_proj",
+            "layer_idx": 2,
+            "top_k_cosine": [
+              0.0111,
+              0.0071,
+              0.0134
+            ],
+            "alignment_ratio": 0.0146
+          },
+          {
+            "layer_name": "base_model.model.model.layers.2.self_attn.v_proj",
+            "layer_idx": 2,
+            "top_k_cosine": [
+              0.0135,
+              0.0136,
+              0.0463
+            ],
+            "alignment_ratio": 0.0103
+          },
+          {
+            "layer_name": "base_model.model.model.layers.20.self_attn.q_proj",
+            "layer_idx": 20,
+            "top_k_cosine": [
+              0.0054,
+              0.0295,
+              0.0028
+            ],
+            "alignment_ratio": 0.0113
+          },
+          {
+            "layer_name": "base_model.model.model.layers.20.self_attn.v_proj",
+            "layer_idx": 20,
+            "top_k_cosine": [
+              0.0038,
+              0.0598,
+              0.0248
+            ],
+            "alignment_ratio": 0.0114
+          },
+          {
+            "layer_name": "base_model.model.model.layers.21.self_attn.q_proj",
+            "layer_idx": 21,
+            "top_k_cosine": [
+              0.0412,
+              0.0264,
+              0.0147
+            ],
+            "alignment_ratio": 0.0361
+          },
+          {
+            "layer_name": "base_model.model.model.layers.21.self_attn.v_proj",
+            "layer_idx": 21,
+            "top_k_cosine": [
+              0.0375,
+              0.018,
+              0.0269
+            ],
+            "alignment_ratio": 0.02
+          },
+          {
+            "layer_name": "base_model.model.model.layers.22.self_attn.q_proj",
+            "layer_idx": 22,
+            "top_k_cosine": [
+              0.0265,
+              0.0128,
+              0.0087
+            ],
+            "alignment_ratio": 0.024
+          },
+          {
+            "layer_name": "base_model.model.model.layers.22.self_attn.v_proj",
+            "layer_idx": 22,
+            "top_k_cosine": [
+              0.0041,
+              0.0675,
+              0.0475
+            ],
+            "alignment_ratio": 0.0242
+          },
+          {
+            "layer_name": "base_model.model.model.layers.23.self_attn.q_proj",
+            "layer_idx": 23,
+            "top_k_cosine": [
+              0.0057,
+              0.0022,
+              0.0112
+            ],
+            "alignment_ratio": 0.0135
+          },
+          {
+            "layer_name": "base_model.model.model.layers.23.self_attn.v_proj",
+            "layer_idx": 23,
+            "top_k_cosine": [
+              0.0221,
+              0.0264,
+              0.0147
+            ],
+            "alignment_ratio": 0.0128
+          },
+          {
+            "layer_name": "base_model.model.model.layers.24.self_attn.q_proj",
+            "layer_idx": 24,
+            "top_k_cosine": [
+              0.02,
+              0.0064,
+              0.0001
+            ],
+            "alignment_ratio": 0.0181
+          },
+          {
+            "layer_name": "base_model.model.model.layers.24.self_attn.v_proj",
+            "layer_idx": 24,
+            "top_k_cosine": [
+              0.0195,
+              0.0323,
+              0.0337
+            ],
+            "alignment_ratio": 0.0136
+          },
+          {
+            "layer_name": "base_model.model.model.layers.25.self_attn.q_proj",
+            "layer_idx": 25,
+            "top_k_cosine": [
+              0.0046,
+              0.0127,
+              0.0116
+            ],
+            "alignment_ratio": 0.0101
+          },
+          {
+            "layer_name": "base_model.model.model.layers.25.self_attn.v_proj",
+            "layer_idx": 25,
+            "top_k_cosine": [
+              0.0143,
+              0.0042,
+              0.0051
+            ],
+            "alignment_ratio": 0.0078
+          },
+          {
+            "layer_name": "base_model.model.model.layers.26.self_attn.q_proj",
+            "layer_idx": 26,
+            "top_k_cosine": [
+              0.0224,
+              0.0147,
+              0.0059
+            ],
+            "alignment_ratio": 0.0223
+          },
+          {
+            "layer_name": "base_model.model.model.layers.26.self_attn.v_proj",
+            "layer_idx": 26,
+            "top_k_cosine": [
+              0.0123,
+              0.0181,
+              0.0014
+            ],
+            "alignment_ratio": 0.0085
+          },
+          {
+            "layer_name": "base_model.model.model.layers.27.self_attn.q_proj",
+            "layer_idx": 27,
+            "top_k_cosine": [
+              0.0099,
+              0.0158,
+              0.0247
+            ],
+            "alignment_ratio": 0.0119
+          },
+          {
+            "layer_name": "base_model.model.model.layers.27.self_attn.v_proj",
+            "layer_idx": 27,
+            "top_k_cosine": [
+              0.0429,
+              0.0693,
+              0.0087
+            ],
+            "alignment_ratio": 0.0251
+          },
+          {
+            "layer_name": "base_model.model.model.layers.3.self_attn.q_proj",
+            "layer_idx": 3,
+            "top_k_cosine": [
+              0.007,
+              0.0069,
+              0.0464
+            ],
+            "alignment_ratio": 0.0242
+          },
+          {
+            "layer_name": "base_model.model.model.layers.3.self_attn.v_proj",
+            "layer_idx": 3,
+            "top_k_cosine": [
+              0.0463,
+              0.0083,
+              0.0007
+            ],
+            "alignment_ratio": 0.0228
+          },
+          {
+            "layer_name": "base_model.model.model.layers.4.self_attn.q_proj",
+            "layer_idx": 4,
+            "top_k_cosine": [
+              0.0104,
+              0.0133,
+              0.025
+            ],
+            "alignment_ratio": 0.0125
+          },
+          {
+            "layer_name": "base_model.model.model.layers.4.self_attn.v_proj",
+            "layer_idx": 4,
+            "top_k_cosine": [
+              0.0126,
+              0.0011,
+              0.0233
+            ],
+            "alignment_ratio": 0.0098
+          },
+          {
+            "layer_name": "base_model.model.model.layers.5.self_attn.q_proj",
+            "layer_idx": 5,
+            "top_k_cosine": [
+              0.0095,
+              0.0319,
+              0.0002
+            ],
+            "alignment_ratio": 0.0173
+          },
+          {
+            "layer_name": "base_model.model.model.layers.5.self_attn.v_proj",
+            "layer_idx": 5,
+            "top_k_cosine": [
+              0.0476,
+              0.0146,
+              0.0054
+            ],
+            "alignment_ratio": 0.0239
+          },
+          {
+            "layer_name": "base_model.model.model.layers.6.self_attn.q_proj",
+            "layer_idx": 6,
+            "top_k_cosine": [
+              0.0027,
+              0.0008,
+              0.0101
+            ],
+            "alignment_ratio": 0.0057
+          },
+          {
+            "layer_name": "base_model.model.model.layers.6.self_attn.v_proj",
+            "layer_idx": 6,
+            "top_k_cosine": [
+              0.03,
+              0.0144,
+              0.0135
+            ],
+            "alignment_ratio": 0.0158
+          },
+          {
+            "layer_name": "base_model.model.model.layers.7.self_attn.q_proj",
+            "layer_idx": 7,
+            "top_k_cosine": [
+              0.0131,
+              0.0122,
+              0.0246
+            ],
+            "alignment_ratio": 0.0172
+          },
+          {
+            "layer_name": "base_model.model.model.layers.7.self_attn.v_proj",
+            "layer_idx": 7,
+            "top_k_cosine": [
+              0.0275,
+              0.0235,
+              0.0202
+            ],
+            "alignment_ratio": 0.0155
+          },
+          {
+            "layer_name": "base_model.model.model.layers.8.self_attn.q_proj",
+            "layer_idx": 8,
+            "top_k_cosine": [
+              0.0172,
+              0.0064,
+              0.0022
+            ],
+            "alignment_ratio": 0.0156
+          },
+          {
+            "layer_name": "base_model.model.model.layers.8.self_attn.v_proj",
+            "layer_idx": 8,
+            "top_k_cosine": [
+              0.0343,
+              0.0595,
+              0.0348
+            ],
+            "alignment_ratio": 0.0206
+          },
+          {
+            "layer_name": "base_model.model.model.layers.9.self_attn.q_proj",
+            "layer_idx": 9,
+            "top_k_cosine": [
+              0.0137,
+              0.0061,
+              0.0148
+            ],
+            "alignment_ratio": 0.0131
+          },
+          {
+            "layer_name": "base_model.model.model.layers.9.self_attn.v_proj",
+            "layer_idx": 9,
+            "top_k_cosine": [
+              0.0302,
+              0.0319,
+              0.0421
+            ],
+            "alignment_ratio": 0.0178
+          }
+        ]
+      },
+      {
+        "adapter_id": "dpo_syco_0600",
+        "per_layer": [
+          {
+            "layer_name": "base_model.model.model.layers.0.self_attn.q_proj",
+            "layer_idx": 0,
+            "top_k_cosine": [
+              0.0172,
+              0.01,
+              0.0098
+            ],
+            "alignment_ratio": 0.0187
+          },
+          {
+            "layer_name": "base_model.model.model.layers.0.self_attn.v_proj",
+            "layer_idx": 0,
+            "top_k_cosine": [
+              0.0048,
+              0.0223,
+              0.0363
+            ],
+            "alignment_ratio": 0.0085
+          },
+          {
+            "layer_name": "base_model.model.model.layers.1.self_attn.q_proj",
+            "layer_idx": 1,
+            "top_k_cosine": [
+              0.0028,
+              0.0176,
+              0.0011
+            ],
+            "alignment_ratio": 0.0111
+          },
+          {
+            "layer_name": "base_model.model.model.layers.1.self_attn.v_proj",
+            "layer_idx": 1,
+            "top_k_cosine": [
+              0.0491,
+              0.0126,
+              0.0033
+            ],
+            "alignment_ratio": 0.0237
+          },
+          {
+            "layer_name": "base_model.model.model.layers.10.self_attn.q_proj",
+            "layer_idx": 10,
+            "top_k_cosine": [
+              0.0252,
+              0.0018,
+              0.0112
+            ],
+            "alignment_ratio": 0.0227
+          },
+          {
+            "layer_name": "base_model.model.model.layers.10.self_attn.v_proj",
+            "layer_idx": 10,
+            "top_k_cosine": [
+              0.0088,
+              0.0246,
+              0.0352
+            ],
+            "alignment_ratio": 0.007
+          },
+          {
+            "layer_name": "base_model.model.model.layers.11.self_attn.q_proj",
+            "layer_idx": 11,
+            "top_k_cosine": [
+              0.0196,
+              0.0062,
+              0.0042
+            ],
+            "alignment_ratio": 0.0176
+          },
+          {
+            "layer_name": "base_model.model.model.layers.11.self_attn.v_proj",
+            "layer_idx": 11,
+            "top_k_cosine": [
+              0.0094,
+              0.0167,
+              0.0607
+            ],
+            "alignment_ratio": 0.0094
+          },
+          {
+            "layer_name": "base_model.model.model.layers.12.self_attn.q_proj",
+            "layer_idx": 12,
+            "top_k_cosine": [
+              0.0281,
+              0.0022,
+              0.0331
+            ],
+            "alignment_ratio": 0.0272
+          },
+          {
+            "layer_name": "base_model.model.model.layers.12.self_attn.v_proj",
+            "layer_idx": 12,
+            "top_k_cosine": [
+              0.006,
+              0.0464,
+              0.0305
+            ],
+            "alignment_ratio": 0.0077
+          },
+          {
+            "layer_name": "base_model.model.model.layers.13.self_attn.q_proj",
+            "layer_idx": 13,
+            "top_k_cosine": [
+              0.003,
+              0.0435,
+              0.0054
+            ],
+            "alignment_ratio": 0.0124
+          },
+          {
+            "layer_name": "base_model.model.model.layers.13.self_attn.v_proj",
+            "layer_idx": 13,
+            "top_k_cosine": [
+              0.0175,
+              0.0401,
+              0.0218
+            ],
+            "alignment_ratio": 0.0106
+          },
+          {
+            "layer_name": "base_model.model.model.layers.14.self_attn.q_proj",
+            "layer_idx": 14,
+            "top_k_cosine": [
+              0.0069,
+              0.0285,
+              0.005
+            ],
+            "alignment_ratio": 0.0117
+          },
+          {
+            "layer_name": "base_model.model.model.layers.14.self_attn.v_proj",
+            "layer_idx": 14,
+            "top_k_cosine": [
+              0.0043,
+              0.0121,
+              0.0613
+            ],
+            "alignment_ratio": 0.0056
+          },
+          {
+            "layer_name": "base_model.model.model.layers.15.self_attn.q_proj",
+            "layer_idx": 15,
+            "top_k_cosine": [
+              0.0082,
+              0.0009,
+              0.0123
+            ],
+            "alignment_ratio": 0.009
+          },
+          {
+            "layer_name": "base_model.model.model.layers.15.self_attn.v_proj",
+            "layer_idx": 15,
+            "top_k_cosine": [
+              0.0101,
+              0.0012,
+              0.0247
+            ],
+            "alignment_ratio": 0.0069
+          },
+          {
+            "layer_name": "base_model.model.model.layers.16.self_attn.q_proj",
+            "layer_idx": 16,
+            "top_k_cosine": [
+              0.0238,
+              0.0127,
+              0.0273
+            ],
+            "alignment_ratio": 0.0224
+          },
+          {
+            "layer_name": "base_model.model.model.layers.16.self_attn.v_proj",
+            "layer_idx": 16,
+            "top_k_cosine": [
+              0.0278,
+              0.016,
+              0.0039
+            ],
+            "alignment_ratio": 0.0158
+          },
+          {
+            "layer_name": "base_model.model.model.layers.17.self_attn.q_proj",
+            "layer_idx": 17,
+            "top_k_cosine": [
+              0.0257,
+              0.0021,
+              0.0018
+            ],
+            "alignment_ratio": 0.0231
+          },
+          {
+            "layer_name": "base_model.model.model.layers.17.self_attn.v_proj",
+            "layer_idx": 17,
+            "top_k_cosine": [
+              0.0149,
+              0.0174,
+              0.0222
+            ],
+            "alignment_ratio": 0.0088
+          },
+          {
+            "layer_name": "base_model.model.model.layers.18.self_attn.q_proj",
+            "layer_idx": 18,
+            "top_k_cosine": [
+              0.0102,
+              0.0051,
+              0.0079
+            ],
+            "alignment_ratio": 0.0093
+          },
+          {
+            "layer_name": "base_model.model.model.layers.18.self_attn.v_proj",
+            "layer_idx": 18,
+            "top_k_cosine": [
+              0.0069,
+              0.003,
+              0.0031
+            ],
+            "alignment_ratio": 0.0048
+          },
+          {
+            "layer_name": "base_model.model.model.layers.19.self_attn.q_proj",
+            "layer_idx": 19,
+            "top_k_cosine": [
+              0.0043,
+              0.0022,
+              0.0319
+            ],
+            "alignment_ratio": 0.0119
+          },
+          {
+            "layer_name": "base_model.model.model.layers.19.self_attn.v_proj",
+            "layer_idx": 19,
+            "top_k_cosine": [
+              0.0724,
+              0.0012,
+              0.0525
+            ],
+            "alignment_ratio": 0.0412
+          },
+          {
+            "layer_name": "base_model.model.model.layers.2.self_attn.q_proj",
+            "layer_idx": 2,
+            "top_k_cosine": [
+              0.0293,
+              0.0203,
+              0.0047
+            ],
+            "alignment_ratio": 0.0251
+          },
+          {
+            "layer_name": "base_model.model.model.layers.2.self_attn.v_proj",
+            "layer_idx": 2,
+            "top_k_cosine": [
+              0.0028,
+              0.0179,
+              0.008
+            ],
+            "alignment_ratio": 0.0079
+          },
+          {
+            "layer_name": "base_model.model.model.layers.20.self_attn.q_proj",
+            "layer_idx": 20,
+            "top_k_cosine": [
+              0.0186,
+              0.0127,
+              0.033
+            ],
+            "alignment_ratio": 0.0195
+          },
+          {
+            "layer_name": "base_model.model.model.layers.20.self_attn.v_proj",
+            "layer_idx": 20,
+            "top_k_cosine": [
+              0.024,
+              0.0519,
+              0.046
+            ],
+            "alignment_ratio": 0.0159
+          },
+          {
+            "layer_name": "base_model.model.model.layers.21.self_attn.q_proj",
+            "layer_idx": 21,
+            "top_k_cosine": [
+              0.0378,
+              0.0267,
+              0.0107
+            ],
+            "alignment_ratio": 0.0349
+          },
+          {
+            "layer_name": "base_model.model.model.layers.21.self_attn.v_proj",
+            "layer_idx": 21,
+            "top_k_cosine": [
+              0.0253,
+              0.0222,
+              0.0162
+            ],
+            "alignment_ratio": 0.0147
+          },
+          {
+            "layer_name": "base_model.model.model.layers.22.self_attn.q_proj",
+            "layer_idx": 22,
+            "top_k_cosine": [
+              0.0248,
+              0.0066,
+              0.0192
+            ],
+            "alignment_ratio": 0.0228
+          },
+          {
+            "layer_name": "base_model.model.model.layers.22.self_attn.v_proj",
+            "layer_idx": 22,
+            "top_k_cosine": [
+              0.0524,
+              0.0301,
+              0.0685
+            ],
+            "alignment_ratio": 0.0262
+          },
+          {
+            "layer_name": "base_model.model.model.layers.23.self_attn.q_proj",
+            "layer_idx": 23,
+            "top_k_cosine": [
+              0.0014,
+              0.004,
+              0.0268
+            ],
+            "alignment_ratio": 0.0094
+          },
+          {
+            "layer_name": "base_model.model.model.layers.23.self_attn.v_proj",
+            "layer_idx": 23,
+            "top_k_cosine": [
+              0.0106,
+              0.0402,
+              0.0399
+            ],
+            "alignment_ratio": 0.0074
+          },
+          {
+            "layer_name": "base_model.model.model.layers.24.self_attn.q_proj",
+            "layer_idx": 24,
+            "top_k_cosine": [
+              0.0138,
+              0.0185,
+              0.0049
+            ],
+            "alignment_ratio": 0.0137
+          },
+          {
+            "layer_name": "base_model.model.model.layers.24.self_attn.v_proj",
+            "layer_idx": 24,
+            "top_k_cosine": [
+              0.0017,
+              0.0456,
+              0.0443
+            ],
+            "alignment_ratio": 0.0094
+          },
+          {
+            "layer_name": "base_model.model.model.layers.25.self_attn.q_proj",
+            "layer_idx": 25,
+            "top_k_cosine": [
+              0.0006,
+              0.0258,
+              0.0003
+            ],
+            "alignment_ratio": 0.0097
+          },
+          {
+            "layer_name": "base_model.model.model.layers.25.self_attn.v_proj",
+            "layer_idx": 25,
+            "top_k_cosine": [
+              0.0056,
+              0.0082,
+              0.0172
+            ],
+            "alignment_ratio": 0.0043
+          },
+          {
+            "layer_name": "base_model.model.model.layers.26.self_attn.q_proj",
+            "layer_idx": 26,
+            "top_k_cosine": [
+              0.0123,
+              0.0137,
+              0.0204
+            ],
+            "alignment_ratio": 0.0131
+          },
+          {
+            "layer_name": "base_model.model.model.layers.26.self_attn.v_proj",
+            "layer_idx": 26,
+            "top_k_cosine": [
+              0.0079,
+              0.0154,
+              0.0194
+            ],
+            "alignment_ratio": 0.0052
+          },
+          {
+            "layer_name": "base_model.model.model.layers.27.self_attn.q_proj",
+            "layer_idx": 27,
+            "top_k_cosine": [
+              0.0123,
+              0.0214,
+              0.0223
+            ],
+            "alignment_ratio": 0.0128
+          },
+          {
+            "layer_name": "base_model.model.model.layers.27.self_attn.v_proj",
+            "layer_idx": 27,
+            "top_k_cosine": [
+              0.0458,
+              0.0369,
+              0.0081
+            ],
+            "alignment_ratio": 0.0252
+          },
+          {
+            "layer_name": "base_model.model.model.layers.3.self_attn.q_proj",
+            "layer_idx": 3,
+            "top_k_cosine": [
+              0.0028,
+              0.0299,
+              0.0203
+            ],
+            "alignment_ratio": 0.0137
+          },
+          {
+            "layer_name": "base_model.model.model.layers.3.self_attn.v_proj",
+            "layer_idx": 3,
+            "top_k_cosine": [
+              0.0376,
+              0.0348,
+              0.0111
+            ],
+            "alignment_ratio": 0.0212
+          },
+          {
+            "layer_name": "base_model.model.model.layers.4.self_attn.q_proj",
+            "layer_idx": 4,
+            "top_k_cosine": [
+              0.0078,
+              0.0072,
+              0.0013
+            ],
+            "alignment_ratio": 0.0116
+          },
+          {
+            "layer_name": "base_model.model.model.layers.4.self_attn.v_proj",
+            "layer_idx": 4,
+            "top_k_cosine": [
+              0.0105,
+              0.0069,
+              0.0245
+            ],
+            "alignment_ratio": 0.0073
+          },
+          {
+            "layer_name": "base_model.model.model.layers.5.self_attn.q_proj",
+            "layer_idx": 5,
+            "top_k_cosine": [
+              0.0079,
+              0.004,
+              0.0023
+            ],
+            "alignment_ratio": 0.0094
+          },
+          {
+            "layer_name": "base_model.model.model.layers.5.self_attn.v_proj",
+            "layer_idx": 5,
+            "top_k_cosine": [
+              0.0541,
+              0.0142,
+              0.0147
+            ],
+            "alignment_ratio": 0.0286
+          },
+          {
+            "layer_name": "base_model.model.model.layers.6.self_attn.q_proj",
+            "layer_idx": 6,
+            "top_k_cosine": [
+              0.0025,
+              0.0148,
+              0.0048
+            ],
+            "alignment_ratio": 0.0069
+          },
+          {
+            "layer_name": "base_model.model.model.layers.6.self_attn.v_proj",
+            "layer_idx": 6,
+            "top_k_cosine": [
+              0.0433,
+              0.0032,
+              0.0208
+            ],
+            "alignment_ratio": 0.023
+          },
+          {
+            "layer_name": "base_model.model.model.layers.7.self_attn.q_proj",
+            "layer_idx": 7,
+            "top_k_cosine": [
+              0.0324,
+              0.0083,
+              0.0308
+            ],
+            "alignment_ratio": 0.0281
+          },
+          {
+            "layer_name": "base_model.model.model.layers.7.self_attn.v_proj",
+            "layer_idx": 7,
+            "top_k_cosine": [
+              0.0274,
+              0.0344,
+              0.0334
+            ],
+            "alignment_ratio": 0.0159
+          },
+          {
+            "layer_name": "base_model.model.model.layers.8.self_attn.q_proj",
+            "layer_idx": 8,
+            "top_k_cosine": [
+              0.0069,
+              0.0204,
+              0.0214
+            ],
+            "alignment_ratio": 0.0098
+          },
+          {
+            "layer_name": "base_model.model.model.layers.8.self_attn.v_proj",
+            "layer_idx": 8,
+            "top_k_cosine": [
+              0.0281,
+              0.0214,
+              0.0538
+            ],
+            "alignment_ratio": 0.0165
+          },
+          {
+            "layer_name": "base_model.model.model.layers.9.self_attn.q_proj",
+            "layer_idx": 9,
+            "top_k_cosine": [
+              0.0114,
+              0.0195,
+              0.0067
+            ],
+            "alignment_ratio": 0.0131
+          },
+          {
+            "layer_name": "base_model.model.model.layers.9.self_attn.v_proj",
+            "layer_idx": 9,
+            "top_k_cosine": [
+              0.0239,
+              0.0113,
+              0.0332
+            ],
+            "alignment_ratio": 0.0141
+          }
+        ]
+      },
+      {
+        "adapter_id": "dpo_syco_1000",
+        "per_layer": [
+          {
+            "layer_name": "base_model.model.model.layers.0.self_attn.q_proj",
+            "layer_idx": 0,
+            "top_k_cosine": [
+              0.0137,
+              0.0126,
+              0.0074
+            ],
+            "alignment_ratio": 0.0173
+          },
+          {
+            "layer_name": "base_model.model.model.layers.0.self_attn.v_proj",
+            "layer_idx": 0,
+            "top_k_cosine": [
+              0.0042,
+              0.0265,
+              0.0443
+            ],
+            "alignment_ratio": 0.0107
+          },
+          {
+            "layer_name": "base_model.model.model.layers.1.self_attn.q_proj",
+            "layer_idx": 1,
+            "top_k_cosine": [
+              0.0118,
+              0.0036,
+              0.0061
+            ],
+            "alignment_ratio": 0.0108
+          },
+          {
+            "layer_name": "base_model.model.model.layers.1.self_attn.v_proj",
+            "layer_idx": 1,
+            "top_k_cosine": [
+              0.0368,
+              0.0216,
+              0.01
+            ],
+            "alignment_ratio": 0.0189
+          },
+          {
+            "layer_name": "base_model.model.model.layers.10.self_attn.q_proj",
+            "layer_idx": 10,
+            "top_k_cosine": [
+              0.0326,
+              0.0219,
+              0.0078
+            ],
+            "alignment_ratio": 0.0268
+          },
+          {
+            "layer_name": "base_model.model.model.layers.10.self_attn.v_proj",
+            "layer_idx": 10,
+            "top_k_cosine": [
+              0.0187,
+              0.0358,
+              0.0162
+            ],
+            "alignment_ratio": 0.0112
+          },
+          {
+            "layer_name": "base_model.model.model.layers.11.self_attn.q_proj",
+            "layer_idx": 11,
+            "top_k_cosine": [
+              0.024,
+              0.0102,
+              0.0022
+            ],
+            "alignment_ratio": 0.0232
+          },
+          {
+            "layer_name": "base_model.model.model.layers.11.self_attn.v_proj",
+            "layer_idx": 11,
+            "top_k_cosine": [
+              0.0104,
+              0.0102,
+              0.0213
+            ],
+            "alignment_ratio": 0.0071
+          },
+          {
+            "layer_name": "base_model.model.model.layers.12.self_attn.q_proj",
+            "layer_idx": 12,
+            "top_k_cosine": [
+              0.0289,
+              0.025,
+              0.0087
+            ],
+            "alignment_ratio": 0.0278
+          },
+          {
+            "layer_name": "base_model.model.model.layers.12.self_attn.v_proj",
+            "layer_idx": 12,
+            "top_k_cosine": [
+              0.0172,
+              0.0026,
+              0.0098
+            ],
+            "alignment_ratio": 0.0099
+          },
+          {
+            "layer_name": "base_model.model.model.layers.13.self_attn.q_proj",
+            "layer_idx": 13,
+            "top_k_cosine": [
+              0.0013,
+              0.013,
+              0.0117
+            ],
+            "alignment_ratio": 0.0072
+          },
+          {
+            "layer_name": "base_model.model.model.layers.13.self_attn.v_proj",
+            "layer_idx": 13,
+            "top_k_cosine": [
+              0.0014,
+              0.0066,
+              0.0101
+            ],
+            "alignment_ratio": 0.0017
+          },
+          {
+            "layer_name": "base_model.model.model.layers.14.self_attn.q_proj",
+            "layer_idx": 14,
+            "top_k_cosine": [
+              0.0041,
+              0.0382,
+              0.0017
+            ],
+            "alignment_ratio": 0.0087
+          },
+          {
+            "layer_name": "base_model.model.model.layers.14.self_attn.v_proj",
+            "layer_idx": 14,
+            "top_k_cosine": [
+              0.0014,
+              0.0083,
+              0.0096
+            ],
+            "alignment_ratio": 0.0019
+          },
+          {
+            "layer_name": "base_model.model.model.layers.15.self_attn.q_proj",
+            "layer_idx": 15,
+            "top_k_cosine": [
+              0.0089,
+              0.025,
+              0.02
+            ],
+            "alignment_ratio": 0.0113
+          },
+          {
+            "layer_name": "base_model.model.model.layers.15.self_attn.v_proj",
+            "layer_idx": 15,
+            "top_k_cosine": [
+              0.0203,
+              0.0031,
+              0.0368
+            ],
+            "alignment_ratio": 0.0118
+          },
+          {
+            "layer_name": "base_model.model.model.layers.16.self_attn.q_proj",
+            "layer_idx": 16,
+            "top_k_cosine": [
+              0.0219,
+              0.0133,
+              0.017
+            ],
+            "alignment_ratio": 0.0201
+          },
+          {
+            "layer_name": "base_model.model.model.layers.16.self_attn.v_proj",
+            "layer_idx": 16,
+            "top_k_cosine": [
+              0.0256,
+              0.0184,
+              0.0161
+            ],
+            "alignment_ratio": 0.0146
+          },
+          {
+            "layer_name": "base_model.model.model.layers.17.self_attn.q_proj",
+            "layer_idx": 17,
+            "top_k_cosine": [
+              0.0232,
+              0.0118,
+              0.0306
+            ],
+            "alignment_ratio": 0.0226
+          },
+          {
+            "layer_name": "base_model.model.model.layers.17.self_attn.v_proj",
+            "layer_idx": 17,
+            "top_k_cosine": [
+              0.0284,
+              0.019,
+              0.0027
+            ],
+            "alignment_ratio": 0.0163
+          },
+          {
+            "layer_name": "base_model.model.model.layers.18.self_attn.q_proj",
+            "layer_idx": 18,
+            "top_k_cosine": [
+              0.0015,
+              0.0322,
+              0.0151
+            ],
+            "alignment_ratio": 0.0145
+          },
+          {
+            "layer_name": "base_model.model.model.layers.18.self_attn.v_proj",
+            "layer_idx": 18,
+            "top_k_cosine": [
+              0.0056,
+              0.0226,
+              0.0245
+            ],
+            "alignment_ratio": 0.0052
+          },
+          {
+            "layer_name": "base_model.model.model.layers.19.self_attn.q_proj",
+            "layer_idx": 19,
+            "top_k_cosine": [
+              0.0126,
+              0.015,
+              0.0008
+            ],
+            "alignment_ratio": 0.0126
+          },
+          {
+            "layer_name": "base_model.model.model.layers.19.self_attn.v_proj",
+            "layer_idx": 19,
+            "top_k_cosine": [
+              0.0635,
+              0.0391,
+              0.0084
+            ],
+            "alignment_ratio": 0.0353
+          },
+          {
+            "layer_name": "base_model.model.model.layers.2.self_attn.q_proj",
+            "layer_idx": 2,
+            "top_k_cosine": [
+              0.0284,
+              0.0125,
+              0.0142
+            ],
+            "alignment_ratio": 0.0232
+          },
+          {
+            "layer_name": "base_model.model.model.layers.2.self_attn.v_proj",
+            "layer_idx": 2,
+            "top_k_cosine": [
+              0.0134,
+              0.001,
+              0.0063
+            ],
+            "alignment_ratio": 0.007
+          },
+          {
+            "layer_name": "base_model.model.model.layers.20.self_attn.q_proj",
+            "layer_idx": 20,
+            "top_k_cosine": [
+              0.0173,
+              0.0233,
+              0.0019
+            ],
+            "alignment_ratio": 0.0174
+          },
+          {
+            "layer_name": "base_model.model.model.layers.20.self_attn.v_proj",
+            "layer_idx": 20,
+            "top_k_cosine": [
+              0.0326,
+              0.0338,
+              0.0363
+            ],
+            "alignment_ratio": 0.0191
+          },
+          {
+            "layer_name": "base_model.model.model.layers.21.self_attn.q_proj",
+            "layer_idx": 21,
+            "top_k_cosine": [
+              0.0421,
+              0.0314,
+              0.0066
+            ],
+            "alignment_ratio": 0.0381
+          },
+          {
+            "layer_name": "base_model.model.model.layers.21.self_attn.v_proj",
+            "layer_idx": 21,
+            "top_k_cosine": [
+              0.017,
+              0.0276,
+              0.0033
+            ],
+            "alignment_ratio": 0.0104
+          },
+          {
+            "layer_name": "base_model.model.model.layers.22.self_attn.q_proj",
+            "layer_idx": 22,
+            "top_k_cosine": [
+              0.0273,
+              0.0207,
+              0.0057
+            ],
+            "alignment_ratio": 0.026
+          },
+          {
+            "layer_name": "base_model.model.model.layers.22.self_attn.v_proj",
+            "layer_idx": 22,
+            "top_k_cosine": [
+              0.0078,
+              0.0977,
+              0.0378
+            ],
+            "alignment_ratio": 0.0202
+          },
+          {
+            "layer_name": "base_model.model.model.layers.23.self_attn.q_proj",
+            "layer_idx": 23,
+            "top_k_cosine": [
+              0.0116,
+              0.0199,
+              0.0054
+            ],
+            "alignment_ratio": 0.0128
+          },
+          {
+            "layer_name": "base_model.model.model.layers.23.self_attn.v_proj",
+            "layer_idx": 23,
+            "top_k_cosine": [
+              0.0167,
+              0.0336,
+              0.0029
+            ],
+            "alignment_ratio": 0.0101
+          },
+          {
+            "layer_name": "base_model.model.model.layers.24.self_attn.q_proj",
+            "layer_idx": 24,
+            "top_k_cosine": [
+              0.0145,
+              0.0256,
+              0.0249
+            ],
+            "alignment_ratio": 0.018
+          },
+          {
+            "layer_name": "base_model.model.model.layers.24.self_attn.v_proj",
+            "layer_idx": 24,
+            "top_k_cosine": [
+              0.0013,
+              0.018,
+              0.0576
+            ],
+            "alignment_ratio": 0.0039
+          },
+          {
+            "layer_name": "base_model.model.model.layers.25.self_attn.q_proj",
+            "layer_idx": 25,
+            "top_k_cosine": [
+              0.0042,
+              0.0012,
+              0.0186
+            ],
+            "alignment_ratio": 0.0106
+          },
+          {
+            "layer_name": "base_model.model.model.layers.25.self_attn.v_proj",
+            "layer_idx": 25,
+            "top_k_cosine": [
+              0.016,
+              0.0014,
+              0.0156
+            ],
+            "alignment_ratio": 0.009
+          },
+          {
+            "layer_name": "base_model.model.model.layers.26.self_attn.q_proj",
+            "layer_idx": 26,
+            "top_k_cosine": [
+              0.0115,
+              0.0175,
+              0.0162
+            ],
+            "alignment_ratio": 0.0125
+          },
+          {
+            "layer_name": "base_model.model.model.layers.26.self_attn.v_proj",
+            "layer_idx": 26,
+            "top_k_cosine": [
+              0.0012,
+              0.0068,
+              0.0374
+            ],
+            "alignment_ratio": 0.0049
+          },
+          {
+            "layer_name": "base_model.model.model.layers.27.self_attn.q_proj",
+            "layer_idx": 27,
+            "top_k_cosine": [
+              0.0142,
+              0.0088,
+              0.039
+            ],
+            "alignment_ratio": 0.0153
+          },
+          {
+            "layer_name": "base_model.model.model.layers.27.self_attn.v_proj",
+            "layer_idx": 27,
+            "top_k_cosine": [
+              0.0532,
+              0.0404,
+              0.0219
+            ],
+            "alignment_ratio": 0.0295
+          },
+          {
+            "layer_name": "base_model.model.model.layers.3.self_attn.q_proj",
+            "layer_idx": 3,
+            "top_k_cosine": [
+              0.0018,
+              0.0251,
+              0.0253
+            ],
+            "alignment_ratio": 0.0118
+          },
+          {
+            "layer_name": "base_model.model.model.layers.3.self_attn.v_proj",
+            "layer_idx": 3,
+            "top_k_cosine": [
+              0.0285,
+              0.0227,
+              0.0254
+            ],
+            "alignment_ratio": 0.0167
+          },
+          {
+            "layer_name": "base_model.model.model.layers.4.self_attn.q_proj",
+            "layer_idx": 4,
+            "top_k_cosine": [
+              0.0054,
+              0.0025,
+              0.0058
+            ],
+            "alignment_ratio": 0.0051
+          },
+          {
+            "layer_name": "base_model.model.model.layers.4.self_attn.v_proj",
+            "layer_idx": 4,
+            "top_k_cosine": [
+              0.0132,
+              0.0288,
+              0.0042
+            ],
+            "alignment_ratio": 0.0088
+          },
+          {
+            "layer_name": "base_model.model.model.layers.5.self_attn.q_proj",
+            "layer_idx": 5,
+            "top_k_cosine": [
+              0.0108,
+              0.0315,
+              0.0119
+            ],
+            "alignment_ratio": 0.0202
+          },
+          {
+            "layer_name": "base_model.model.model.layers.5.self_attn.v_proj",
+            "layer_idx": 5,
+            "top_k_cosine": [
+              0.0175,
+              0.0343,
+              0.0028
+            ],
+            "alignment_ratio": 0.0115
+          },
+          {
+            "layer_name": "base_model.model.model.layers.6.self_attn.q_proj",
+            "layer_idx": 6,
+            "top_k_cosine": [
+              0.008,
+              0.0346,
+              0.0052
+            ],
+            "alignment_ratio": 0.0148
+          },
+          {
+            "layer_name": "base_model.model.model.layers.6.self_attn.v_proj",
+            "layer_idx": 6,
+            "top_k_cosine": [
+              0.0369,
+              0.0056,
+              0.0204
+            ],
+            "alignment_ratio": 0.0188
+          },
+          {
+            "layer_name": "base_model.model.model.layers.7.self_attn.q_proj",
+            "layer_idx": 7,
+            "top_k_cosine": [
+              0.0375,
+              0.0139,
+              0.0341
+            ],
+            "alignment_ratio": 0.0312
+          },
+          {
+            "layer_name": "base_model.model.model.layers.7.self_attn.v_proj",
+            "layer_idx": 7,
+            "top_k_cosine": [
+              0.0264,
+              0.0352,
+              0.016
+            ],
+            "alignment_ratio": 0.0152
+          },
+          {
+            "layer_name": "base_model.model.model.layers.8.self_attn.q_proj",
+            "layer_idx": 8,
+            "top_k_cosine": [
+              0.0082,
+              0.0044,
+              0.0266
+            ],
+            "alignment_ratio": 0.0106
+          },
+          {
+            "layer_name": "base_model.model.model.layers.8.self_attn.v_proj",
+            "layer_idx": 8,
+            "top_k_cosine": [
+              0.0331,
+              0.0316,
+              0.0546
+            ],
+            "alignment_ratio": 0.0194
+          },
+          {
+            "layer_name": "base_model.model.model.layers.9.self_attn.q_proj",
+            "layer_idx": 9,
+            "top_k_cosine": [
+              0.0088,
+              0.0145,
+              0.0047
+            ],
+            "alignment_ratio": 0.0122
+          },
+          {
+            "layer_name": "base_model.model.model.layers.9.self_attn.v_proj",
+            "layer_idx": 9,
+            "top_k_cosine": [
+              0.0119,
+              0.0916,
+              0.0038
+            ],
+            "alignment_ratio": 0.0106
+          }
+        ]
+      }
+    ],
+    "helpfulness": [
+      {
+        "adapter_id": "dpo_help_0300",
+        "per_layer": [
+          {
+            "layer_name": "base_model.model.model.layers.0.self_attn.q_proj",
+            "layer_idx": 0,
+            "top_k_cosine": [
+              0.0045,
+              0.0236,
+              0.0062
+            ],
+            "alignment_ratio": 0.0149
+          },
+          {
+            "layer_name": "base_model.model.model.layers.0.self_attn.v_proj",
+            "layer_idx": 0,
+            "top_k_cosine": [
+              0.0307,
+              0.0217,
+              0.0011
+            ],
+            "alignment_ratio": 0.0165
+          },
+          {
+            "layer_name": "base_model.model.model.layers.1.self_attn.q_proj",
+            "layer_idx": 1,
+            "top_k_cosine": [
+              0.0222,
+              0.0111,
+              0.0119
+            ],
+            "alignment_ratio": 0.0179
+          },
+          {
+            "layer_name": "base_model.model.model.layers.1.self_attn.v_proj",
+            "layer_idx": 1,
+            "top_k_cosine": [
+              0.0075,
+              0.0174,
+              0.0005
+            ],
+            "alignment_ratio": 0.0082
+          },
+          {
+            "layer_name": "base_model.model.model.layers.10.self_attn.q_proj",
+            "layer_idx": 10,
+            "top_k_cosine": [
+              0.0104,
+              0.0202,
+              0.0362
+            ],
+            "alignment_ratio": 0.0175
+          },
+          {
+            "layer_name": "base_model.model.model.layers.10.self_attn.v_proj",
+            "layer_idx": 10,
+            "top_k_cosine": [
+              0.0083,
+              0.0054,
+              0.0062
+            ],
+            "alignment_ratio": 0.0058
+          },
+          {
+            "layer_name": "base_model.model.model.layers.11.self_attn.q_proj",
+            "layer_idx": 11,
+            "top_k_cosine": [
+              0.032,
+              0.0173,
+              0.0094
+            ],
+            "alignment_ratio": 0.0286
+          },
+          {
+            "layer_name": "base_model.model.model.layers.11.self_attn.v_proj",
+            "layer_idx": 11,
+            "top_k_cosine": [
+              0.022,
+              0.0729,
+              0.0111
+            ],
+            "alignment_ratio": 0.0184
+          },
+          {
+            "layer_name": "base_model.model.model.layers.12.self_attn.q_proj",
+            "layer_idx": 12,
+            "top_k_cosine": [
+              0.0029,
+              0.0003,
+              0.0105
+            ],
+            "alignment_ratio": 0.0069
+          },
+          {
+            "layer_name": "base_model.model.model.layers.12.self_attn.v_proj",
+            "layer_idx": 12,
+            "top_k_cosine": [
+              0.0175,
+              0.033,
+              0.0275
+            ],
+            "alignment_ratio": 0.0117
+          },
+          {
+            "layer_name": "base_model.model.model.layers.13.self_attn.q_proj",
+            "layer_idx": 13,
+            "top_k_cosine": [
+              0.0228,
+              0.0201,
+              0.0237
+            ],
+            "alignment_ratio": 0.0216
+          },
+          {
+            "layer_name": "base_model.model.model.layers.13.self_attn.v_proj",
+            "layer_idx": 13,
+            "top_k_cosine": [
+              0.0326,
+              0.0066,
+              0.0582
+            ],
+            "alignment_ratio": 0.0186
+          },
+          {
+            "layer_name": "base_model.model.model.layers.14.self_attn.q_proj",
+            "layer_idx": 14,
+            "top_k_cosine": [
+              0.0095,
+              0.0003,
+              0.0197
+            ],
+            "alignment_ratio": 0.0141
+          },
+          {
+            "layer_name": "base_model.model.model.layers.14.self_attn.v_proj",
+            "layer_idx": 14,
+            "top_k_cosine": [
+              0.0134,
+              0.0137,
+              0.0058
+            ],
+            "alignment_ratio": 0.0078
+          },
+          {
+            "layer_name": "base_model.model.model.layers.15.self_attn.q_proj",
+            "layer_idx": 15,
+            "top_k_cosine": [
+              0.0142,
+              0.0023,
+              0.0116
+            ],
+            "alignment_ratio": 0.0158
+          },
+          {
+            "layer_name": "base_model.model.model.layers.15.self_attn.v_proj",
+            "layer_idx": 15,
+            "top_k_cosine": [
+              0.0003,
+              0.0196,
+              0.0411
+            ],
+            "alignment_ratio": 0.0064
+          },
+          {
+            "layer_name": "base_model.model.model.layers.16.self_attn.q_proj",
+            "layer_idx": 16,
+            "top_k_cosine": [
+              0.0174,
+              0.0144,
+              0.0032
+            ],
+            "alignment_ratio": 0.0168
+          },
+          {
+            "layer_name": "base_model.model.model.layers.16.self_attn.v_proj",
+            "layer_idx": 16,
+            "top_k_cosine": [
+              0.0601,
+              0.0392,
+              0.0148
+            ],
+            "alignment_ratio": 0.0321
+          },
+          {
+            "layer_name": "base_model.model.model.layers.17.self_attn.q_proj",
+            "layer_idx": 17,
+            "top_k_cosine": [
+              0.0279,
+              0.0095,
+              0.0297
+            ],
+            "alignment_ratio": 0.0247
+          },
+          {
+            "layer_name": "base_model.model.model.layers.17.self_attn.v_proj",
+            "layer_idx": 17,
+            "top_k_cosine": [
+              0.0067,
+              0.0253,
+              0.0076
+            ],
+            "alignment_ratio": 0.008
+          },
+          {
+            "layer_name": "base_model.model.model.layers.18.self_attn.q_proj",
+            "layer_idx": 18,
+            "top_k_cosine": [
+              0.0102,
+              0.0066,
+              0.0015
+            ],
+            "alignment_ratio": 0.0096
+          },
+          {
+            "layer_name": "base_model.model.model.layers.18.self_attn.v_proj",
+            "layer_idx": 18,
+            "top_k_cosine": [
+              0.0377,
+              0.0665,
+              0.0114
+            ],
+            "alignment_ratio": 0.0246
+          },
+          {
+            "layer_name": "base_model.model.model.layers.19.self_attn.q_proj",
+            "layer_idx": 19,
+            "top_k_cosine": [
+              0.005,
+              0.0143,
+              0.0096
+            ],
+            "alignment_ratio": 0.0102
+          },
+          {
+            "layer_name": "base_model.model.model.layers.19.self_attn.v_proj",
+            "layer_idx": 19,
+            "top_k_cosine": [
+              0.03,
+              0.0336,
+              0.0152
+            ],
+            "alignment_ratio": 0.0176
+          },
+          {
+            "layer_name": "base_model.model.model.layers.2.self_attn.q_proj",
+            "layer_idx": 2,
+            "top_k_cosine": [
+              0.0245,
+              0.0135,
+              0.003
+            ],
+            "alignment_ratio": 0.0214
+          },
+          {
+            "layer_name": "base_model.model.model.layers.2.self_attn.v_proj",
+            "layer_idx": 2,
+            "top_k_cosine": [
+              0.0046,
+              0.0069,
+              0.0058
+            ],
+            "alignment_ratio": 0.0052
+          },
+          {
+            "layer_name": "base_model.model.model.layers.20.self_attn.q_proj",
+            "layer_idx": 20,
+            "top_k_cosine": [
+              0.0189,
+              0.031,
+              0.0049
+            ],
+            "alignment_ratio": 0.0204
+          },
+          {
+            "layer_name": "base_model.model.model.layers.20.self_attn.v_proj",
+            "layer_idx": 20,
+            "top_k_cosine": [
+              0.0017,
+              0.0535,
+              0.0166
+            ],
+            "alignment_ratio": 0.0144
+          },
+          {
+            "layer_name": "base_model.model.model.layers.21.self_attn.q_proj",
+            "layer_idx": 21,
+            "top_k_cosine": [
+              0.0006,
+              0.0042,
+              0.0084
+            ],
+            "alignment_ratio": 0.0112
+          },
+          {
+            "layer_name": "base_model.model.model.layers.21.self_attn.v_proj",
+            "layer_idx": 21,
+            "top_k_cosine": [
+              0.0309,
+              0.0181,
+              0.0079
+            ],
+            "alignment_ratio": 0.0158
+          },
+          {
+            "layer_name": "base_model.model.model.layers.22.self_attn.q_proj",
+            "layer_idx": 22,
+            "top_k_cosine": [
+              0.0043,
+              0.0222,
+              0.002
+            ],
+            "alignment_ratio": 0.0133
+          },
+          {
+            "layer_name": "base_model.model.model.layers.22.self_attn.v_proj",
+            "layer_idx": 22,
+            "top_k_cosine": [
+              0.0472,
+              0.0085,
+              0.0013
+            ],
+            "alignment_ratio": 0.0241
+          },
+          {
+            "layer_name": "base_model.model.model.layers.23.self_attn.q_proj",
+            "layer_idx": 23,
+            "top_k_cosine": [
+              0.0436,
+              0.0172,
+              0.0077
+            ],
+            "alignment_ratio": 0.0315
+          },
+          {
+            "layer_name": "base_model.model.model.layers.23.self_attn.v_proj",
+            "layer_idx": 23,
+            "top_k_cosine": [
+              0.0108,
+              0.0261,
+              0.0236
+            ],
+            "alignment_ratio": 0.0078
+          },
+          {
+            "layer_name": "base_model.model.model.layers.24.self_attn.q_proj",
+            "layer_idx": 24,
+            "top_k_cosine": [
+              0.0157,
+              0.0081,
+              0.0128
+            ],
+            "alignment_ratio": 0.0134
+          },
+          {
+            "layer_name": "base_model.model.model.layers.24.self_attn.v_proj",
+            "layer_idx": 24,
+            "top_k_cosine": [
+              0.0105,
+              0.0054,
+              0.0137
+            ],
+            "alignment_ratio": 0.0062
+          },
+          {
+            "layer_name": "base_model.model.model.layers.25.self_attn.q_proj",
+            "layer_idx": 25,
+            "top_k_cosine": [
+              0.0313,
+              0.0193,
+              0.0045
+            ],
+            "alignment_ratio": 0.0279
+          },
+          {
+            "layer_name": "base_model.model.model.layers.25.self_attn.v_proj",
+            "layer_idx": 25,
+            "top_k_cosine": [
+              0.0284,
+              0.0766,
+              0.0495
+            ],
+            "alignment_ratio": 0.0259
+          },
+          {
+            "layer_name": "base_model.model.model.layers.26.self_attn.q_proj",
+            "layer_idx": 26,
+            "top_k_cosine": [
+              0.0016,
+              0.0055,
+              0.0275
+            ],
+            "alignment_ratio": 0.0124
+          },
+          {
+            "layer_name": "base_model.model.model.layers.26.self_attn.v_proj",
+            "layer_idx": 26,
+            "top_k_cosine": [
+              0.026,
+              0.045,
+              0.021
+            ],
+            "alignment_ratio": 0.0161
+          },
+          {
+            "layer_name": "base_model.model.model.layers.27.self_attn.q_proj",
+            "layer_idx": 27,
+            "top_k_cosine": [
+              0.001,
+              0.0065,
+              0.0257
+            ],
+            "alignment_ratio": 0.0103
+          },
+          {
+            "layer_name": "base_model.model.model.layers.27.self_attn.v_proj",
+            "layer_idx": 27,
+            "top_k_cosine": [
+              0.0038,
+              0.0155,
+              0.0519
+            ],
+            "alignment_ratio": 0.0064
+          },
+          {
+            "layer_name": "base_model.model.model.layers.3.self_attn.q_proj",
+            "layer_idx": 3,
+            "top_k_cosine": [
+              0.0032,
+              0.0029,
+              0.0057
+            ],
+            "alignment_ratio": 0.0062
+          },
+          {
+            "layer_name": "base_model.model.model.layers.3.self_attn.v_proj",
+            "layer_idx": 3,
+            "top_k_cosine": [
+              0.0245,
+              0.024,
+              0.0036
+            ],
+            "alignment_ratio": 0.0131
+          },
+          {
+            "layer_name": "base_model.model.model.layers.4.self_attn.q_proj",
+            "layer_idx": 4,
+            "top_k_cosine": [
+              0.0014,
+              0.0258,
+              0.0356
+            ],
+            "alignment_ratio": 0.0183
+          },
+          {
+            "layer_name": "base_model.model.model.layers.4.self_attn.v_proj",
+            "layer_idx": 4,
+            "top_k_cosine": [
+              0.0212,
+              0.0268,
+              0.0283
+            ],
+            "alignment_ratio": 0.0132
+          },
+          {
+            "layer_name": "base_model.model.model.layers.5.self_attn.q_proj",
+            "layer_idx": 5,
+            "top_k_cosine": [
+              0.0068,
+              0.0359,
+              0.0105
+            ],
+            "alignment_ratio": 0.022
+          },
+          {
+            "layer_name": "base_model.model.model.layers.5.self_attn.v_proj",
+            "layer_idx": 5,
+            "top_k_cosine": [
+              0.0229,
+              0.0617,
+              0.0148
+            ],
+            "alignment_ratio": 0.0173
+          },
+          {
+            "layer_name": "base_model.model.model.layers.6.self_attn.q_proj",
+            "layer_idx": 6,
+            "top_k_cosine": [
+              0.0071,
+              0.0022,
+              0.0284
+            ],
+            "alignment_ratio": 0.0147
+          },
+          {
+            "layer_name": "base_model.model.model.layers.6.self_attn.v_proj",
+            "layer_idx": 6,
+            "top_k_cosine": [
+              0.0464,
+              0.0151,
+              0.0547
+            ],
+            "alignment_ratio": 0.0227
+          },
+          {
+            "layer_name": "base_model.model.model.layers.7.self_attn.q_proj",
+            "layer_idx": 7,
+            "top_k_cosine": [
+              0.0239,
+              0.0451,
+              0.017
+            ],
+            "alignment_ratio": 0.0246
+          },
+          {
+            "layer_name": "base_model.model.model.layers.7.self_attn.v_proj",
+            "layer_idx": 7,
+            "top_k_cosine": [
+              0.0153,
+              0.0167,
+              0.0292
+            ],
+            "alignment_ratio": 0.0099
+          },
+          {
+            "layer_name": "base_model.model.model.layers.8.self_attn.q_proj",
+            "layer_idx": 8,
+            "top_k_cosine": [
+              0.0084,
+              0.0117,
+              0.0092
+            ],
+            "alignment_ratio": 0.0133
+          },
+          {
+            "layer_name": "base_model.model.model.layers.8.self_attn.v_proj",
+            "layer_idx": 8,
+            "top_k_cosine": [
+              0.0405,
+              0.0261,
+              0.0125
+            ],
+            "alignment_ratio": 0.0217
+          },
+          {
+            "layer_name": "base_model.model.model.layers.9.self_attn.q_proj",
+            "layer_idx": 9,
+            "top_k_cosine": [
+              0.0403,
+              0.0357,
+              0.0019
+            ],
+            "alignment_ratio": 0.0352
+          },
+          {
+            "layer_name": "base_model.model.model.layers.9.self_attn.v_proj",
+            "layer_idx": 9,
+            "top_k_cosine": [
+              0.0779,
+              0.0069,
+              0.0353
+            ],
+            "alignment_ratio": 0.0423
+          }
+        ]
+      },
+      {
+        "adapter_id": "dpo_help_0600",
+        "per_layer": [
+          {
+            "layer_name": "base_model.model.model.layers.0.self_attn.q_proj",
+            "layer_idx": 0,
+            "top_k_cosine": [
+              0.0088,
+              0.0111,
+              0.0193
+            ],
+            "alignment_ratio": 0.0108
+          },
+          {
+            "layer_name": "base_model.model.model.layers.0.self_attn.v_proj",
+            "layer_idx": 0,
+            "top_k_cosine": [
+              0.004,
+              0.0347,
+              0.0329
+            ],
+            "alignment_ratio": 0.0093
+          },
+          {
+            "layer_name": "base_model.model.model.layers.1.self_attn.q_proj",
+            "layer_idx": 1,
+            "top_k_cosine": [
+              0.0153,
+              0.0089,
+              0.0207
+            ],
+            "alignment_ratio": 0.0145
+          },
+          {
+            "layer_name": "base_model.model.model.layers.1.self_attn.v_proj",
+            "layer_idx": 1,
+            "top_k_cosine": [
+              0.0149,
+              0.0068,
+              0.0139
+            ],
+            "alignment_ratio": 0.0087
+          },
+          {
+            "layer_name": "base_model.model.model.layers.10.self_attn.q_proj",
+            "layer_idx": 10,
+            "top_k_cosine": [
+              0.0117,
+              0.005,
+              0.0043
+            ],
+            "alignment_ratio": 0.0132
+          },
+          {
+            "layer_name": "base_model.model.model.layers.10.self_attn.v_proj",
+            "layer_idx": 10,
+            "top_k_cosine": [
+              0.001,
+              0.0165,
+              0.0079
+            ],
+            "alignment_ratio": 0.0027
+          },
+          {
+            "layer_name": "base_model.model.model.layers.11.self_attn.q_proj",
+            "layer_idx": 11,
+            "top_k_cosine": [
+              0.0345,
+              0.0385,
+              0.0145
+            ],
+            "alignment_ratio": 0.0326
+          },
+          {
+            "layer_name": "base_model.model.model.layers.11.self_attn.v_proj",
+            "layer_idx": 11,
+            "top_k_cosine": [
+              0.0246,
+              0.0655,
+              0.0107
+            ],
+            "alignment_ratio": 0.0168
+          },
+          {
+            "layer_name": "base_model.model.model.layers.12.self_attn.q_proj",
+            "layer_idx": 12,
+            "top_k_cosine": [
+              0.005,
+              0.0257,
+              0.0019
+            ],
+            "alignment_ratio": 0.015
+          },
+          {
+            "layer_name": "base_model.model.model.layers.12.self_attn.v_proj",
+            "layer_idx": 12,
+            "top_k_cosine": [
+              0.0359,
+              0.0138,
+              0.0571
+            ],
+            "alignment_ratio": 0.0207
+          },
+          {
+            "layer_name": "base_model.model.model.layers.13.self_attn.q_proj",
+            "layer_idx": 13,
+            "top_k_cosine": [
+              0.02,
+              0.0286,
+              0.0095
+            ],
+            "alignment_ratio": 0.0198
+          },
+          {
+            "layer_name": "base_model.model.model.layers.13.self_attn.v_proj",
+            "layer_idx": 13,
+            "top_k_cosine": [
+              0.0151,
+              0.0328,
+              0.0211
+            ],
+            "alignment_ratio": 0.0102
+          },
+          {
+            "layer_name": "base_model.model.model.layers.14.self_attn.q_proj",
+            "layer_idx": 14,
+            "top_k_cosine": [
+              0.0183,
+              0.0012,
+              0.0087
+            ],
+            "alignment_ratio": 0.0217
+          },
+          {
+            "layer_name": "base_model.model.model.layers.14.self_attn.v_proj",
+            "layer_idx": 14,
+            "top_k_cosine": [
+              0.0065,
+              0.0094,
+              0.0104
+            ],
+            "alignment_ratio": 0.0046
+          },
+          {
+            "layer_name": "base_model.model.model.layers.15.self_attn.q_proj",
+            "layer_idx": 15,
+            "top_k_cosine": [
+              0.0045,
+              0.0421,
+              0.0072
+            ],
+            "alignment_ratio": 0.0176
+          },
+          {
+            "layer_name": "base_model.model.model.layers.15.self_attn.v_proj",
+            "layer_idx": 15,
+            "top_k_cosine": [
+              0.0267,
+              0.0231,
+              0.0044
+            ],
+            "alignment_ratio": 0.0155
+          },
+          {
+            "layer_name": "base_model.model.model.layers.16.self_attn.q_proj",
+            "layer_idx": 16,
+            "top_k_cosine": [
+              0.012,
+              0.0288,
+              0.0125
+            ],
+            "alignment_ratio": 0.0144
+          },
+          {
+            "layer_name": "base_model.model.model.layers.16.self_attn.v_proj",
+            "layer_idx": 16,
+            "top_k_cosine": [
+              0.0708,
+              0.0067,
+              0.0547
+            ],
+            "alignment_ratio": 0.0387
+          },
+          {
+            "layer_name": "base_model.model.model.layers.17.self_attn.q_proj",
+            "layer_idx": 17,
+            "top_k_cosine": [
+              0.0182,
+              0.0246,
+              0.014
+            ],
+            "alignment_ratio": 0.0185
+          },
+          {
+            "layer_name": "base_model.model.model.layers.17.self_attn.v_proj",
+            "layer_idx": 17,
+            "top_k_cosine": [
+              0.026,
+              0.0286,
+              0.0012
+            ],
+            "alignment_ratio": 0.0152
+          },
+          {
+            "layer_name": "base_model.model.model.layers.18.self_attn.q_proj",
+            "layer_idx": 18,
+            "top_k_cosine": [
+              0.0182,
+              0.0035,
+              0.0075
+            ],
+            "alignment_ratio": 0.0164
+          },
+          {
+            "layer_name": "base_model.model.model.layers.18.self_attn.v_proj",
+            "layer_idx": 18,
+            "top_k_cosine": [
+              0.0361,
+              0.0709,
+              0.0167
+            ],
+            "alignment_ratio": 0.0245
+          },
+          {
+            "layer_name": "base_model.model.model.layers.19.self_attn.q_proj",
+            "layer_idx": 19,
+            "top_k_cosine": [
+              0.0081,
+              0.0079,
+              0.0106
+            ],
+            "alignment_ratio": 0.0103
+          },
+          {
+            "layer_name": "base_model.model.model.layers.19.self_attn.v_proj",
+            "layer_idx": 19,
+            "top_k_cosine": [
+              0.0343,
+              0.0516,
+              0.0086
+            ],
+            "alignment_ratio": 0.0204
+          },
+          {
+            "layer_name": "base_model.model.model.layers.2.self_attn.q_proj",
+            "layer_idx": 2,
+            "top_k_cosine": [
+              0.0142,
+              0.0013,
+              0.0208
+            ],
+            "alignment_ratio": 0.0171
+          },
+          {
+            "layer_name": "base_model.model.model.layers.2.self_attn.v_proj",
+            "layer_idx": 2,
+            "top_k_cosine": [
+              0.0175,
+              0.0055,
+              0.0311
+            ],
+            "alignment_ratio": 0.01
+          },
+          {
+            "layer_name": "base_model.model.model.layers.20.self_attn.q_proj",
+            "layer_idx": 20,
+            "top_k_cosine": [
+              0.0295,
+              0.0006,
+              0.0207
+            ],
+            "alignment_ratio": 0.0247
+          },
+          {
+            "layer_name": "base_model.model.model.layers.20.self_attn.v_proj",
+            "layer_idx": 20,
+            "top_k_cosine": [
+              0.0094,
+              0.0666,
+              0.0171
+            ],
+            "alignment_ratio": 0.0176
+          },
+          {
+            "layer_name": "base_model.model.model.layers.21.self_attn.q_proj",
+            "layer_idx": 21,
+            "top_k_cosine": [
+              0.002,
+              0.015,
+              0.0182
+            ],
+            "alignment_ratio": 0.0093
+          },
+          {
+            "layer_name": "base_model.model.model.layers.21.self_attn.v_proj",
+            "layer_idx": 21,
+            "top_k_cosine": [
+              0.0069,
+              0.0124,
+              0.0084
+            ],
+            "alignment_ratio": 0.0079
+          },
+          {
+            "layer_name": "base_model.model.model.layers.22.self_attn.q_proj",
+            "layer_idx": 22,
+            "top_k_cosine": [
+              0.0017,
+              0.0288,
+              0.0019
+            ],
+            "alignment_ratio": 0.0139
+          },
+          {
+            "layer_name": "base_model.model.model.layers.22.self_attn.v_proj",
+            "layer_idx": 22,
+            "top_k_cosine": [
+              0.0383,
+              0.0108,
+              0.015
+            ],
+            "alignment_ratio": 0.0186
+          },
+          {
+            "layer_name": "base_model.model.model.layers.23.self_attn.q_proj",
+            "layer_idx": 23,
+            "top_k_cosine": [
+              0.0415,
+              0.0106,
+              0.0132
+            ],
+            "alignment_ratio": 0.0378
+          },
+          {
+            "layer_name": "base_model.model.model.layers.23.self_attn.v_proj",
+            "layer_idx": 23,
+            "top_k_cosine": [
+              0.0227,
+              0.0065,
+              0.0293
+            ],
+            "alignment_ratio": 0.0123
+          },
+          {
+            "layer_name": "base_model.model.model.layers.24.self_attn.q_proj",
+            "layer_idx": 24,
+            "top_k_cosine": [
+              0.001,
+              0.0087,
+              0.0031
+            ],
+            "alignment_ratio": 0.0066
+          },
+          {
+            "layer_name": "base_model.model.model.layers.24.self_attn.v_proj",
+            "layer_idx": 24,
+            "top_k_cosine": [
+              0.0117,
+              0.0066,
+              0.0182
+            ],
+            "alignment_ratio": 0.0082
+          },
+          {
+            "layer_name": "base_model.model.model.layers.25.self_attn.q_proj",
+            "layer_idx": 25,
+            "top_k_cosine": [
+              0.0376,
+              0.0082,
+              0.0533
+            ],
+            "alignment_ratio": 0.0344
+          },
+          {
+            "layer_name": "base_model.model.model.layers.25.self_attn.v_proj",
+            "layer_idx": 25,
+            "top_k_cosine": [
+              0.0274,
+              0.0783,
+              0.0176
+            ],
+            "alignment_ratio": 0.0205
+          },
+          {
+            "layer_name": "base_model.model.model.layers.26.self_attn.q_proj",
+            "layer_idx": 26,
+            "top_k_cosine": [
+              0.0119,
+              0.008,
+              0.0347
+            ],
+            "alignment_ratio": 0.0147
+          },
+          {
+            "layer_name": "base_model.model.model.layers.26.self_attn.v_proj",
+            "layer_idx": 26,
+            "top_k_cosine": [
+              0.0394,
+              0.0319,
+              0.0258
+            ],
+            "alignment_ratio": 0.0217
+          },
+          {
+            "layer_name": "base_model.model.model.layers.27.self_attn.q_proj",
+            "layer_idx": 27,
+            "top_k_cosine": [
+              0.0023,
+              0.0083,
+              0.0326
+            ],
+            "alignment_ratio": 0.0126
+          },
+          {
+            "layer_name": "base_model.model.model.layers.27.self_attn.v_proj",
+            "layer_idx": 27,
+            "top_k_cosine": [
+              0.0134,
+              0.0102,
+              0.0364
+            ],
+            "alignment_ratio": 0.008
+          },
+          {
+            "layer_name": "base_model.model.model.layers.3.self_attn.q_proj",
+            "layer_idx": 3,
+            "top_k_cosine": [
+              0.0061,
+              0.0,
+              0.021
+            ],
+            "alignment_ratio": 0.0099
+          },
+          {
+            "layer_name": "base_model.model.model.layers.3.self_attn.v_proj",
+            "layer_idx": 3,
+            "top_k_cosine": [
+              0.0172,
+              0.0059,
+              0.0188
+            ],
+            "alignment_ratio": 0.0097
+          },
+          {
+            "layer_name": "base_model.model.model.layers.4.self_attn.q_proj",
+            "layer_idx": 4,
+            "top_k_cosine": [
+              0.0036,
+              0.0087,
+              0.0095
+            ],
+            "alignment_ratio": 0.0091
+          },
+          {
+            "layer_name": "base_model.model.model.layers.4.self_attn.v_proj",
+            "layer_idx": 4,
+            "top_k_cosine": [
+              0.0147,
+              0.0223,
+              0.0134
+            ],
+            "alignment_ratio": 0.0116
+          },
+          {
+            "layer_name": "base_model.model.model.layers.5.self_attn.q_proj",
+            "layer_idx": 5,
+            "top_k_cosine": [
+              0.0052,
+              0.0155,
+              0.0156
+            ],
+            "alignment_ratio": 0.0144
+          },
+          {
+            "layer_name": "base_model.model.model.layers.5.self_attn.v_proj",
+            "layer_idx": 5,
+            "top_k_cosine": [
+              0.0154,
+              0.0139,
+              0.0467
+            ],
+            "alignment_ratio": 0.0131
+          },
+          {
+            "layer_name": "base_model.model.model.layers.6.self_attn.q_proj",
+            "layer_idx": 6,
+            "top_k_cosine": [
+              0.0098,
+              0.0039,
+              0.0197
+            ],
+            "alignment_ratio": 0.0124
+          },
+          {
+            "layer_name": "base_model.model.model.layers.6.self_attn.v_proj",
+            "layer_idx": 6,
+            "top_k_cosine": [
+              0.0289,
+              0.0113,
+              0.046
+            ],
+            "alignment_ratio": 0.0155
+          },
+          {
+            "layer_name": "base_model.model.model.layers.7.self_attn.q_proj",
+            "layer_idx": 7,
+            "top_k_cosine": [
+              0.0361,
+              0.0062,
+              0.0377
+            ],
+            "alignment_ratio": 0.0331
+          },
+          {
+            "layer_name": "base_model.model.model.layers.7.self_attn.v_proj",
+            "layer_idx": 7,
+            "top_k_cosine": [
+              0.0104,
+              0.0221,
+              0.0106
+            ],
+            "alignment_ratio": 0.0084
+          },
+          {
+            "layer_name": "base_model.model.model.layers.8.self_attn.q_proj",
+            "layer_idx": 8,
+            "top_k_cosine": [
+              0.0141,
+              0.0145,
+              0.0141
+            ],
+            "alignment_ratio": 0.0174
+          },
+          {
+            "layer_name": "base_model.model.model.layers.8.self_attn.v_proj",
+            "layer_idx": 8,
+            "top_k_cosine": [
+              0.0362,
+              0.067,
+              0.0465
+            ],
+            "alignment_ratio": 0.0237
+          },
+          {
+            "layer_name": "base_model.model.model.layers.9.self_attn.q_proj",
+            "layer_idx": 9,
+            "top_k_cosine": [
+              0.0331,
+              0.0318,
+              0.0419
+            ],
+            "alignment_ratio": 0.0308
+          },
+          {
+            "layer_name": "base_model.model.model.layers.9.self_attn.v_proj",
+            "layer_idx": 9,
+            "top_k_cosine": [
+              0.0887,
+              0.0091,
+              0.0064
+            ],
+            "alignment_ratio": 0.0508
+          }
+        ]
+      },
+      {
+        "adapter_id": "dpo_help_1000",
+        "per_layer": [
+          {
+            "layer_name": "base_model.model.model.layers.0.self_attn.q_proj",
+            "layer_idx": 0,
+            "top_k_cosine": [
+              0.0298,
+              0.0099,
+              0.0121
+            ],
+            "alignment_ratio": 0.0241
+          },
+          {
+            "layer_name": "base_model.model.model.layers.0.self_attn.v_proj",
+            "layer_idx": 0,
+            "top_k_cosine": [
+              0.0219,
+              0.0477,
+              0.0185
+            ],
+            "alignment_ratio": 0.0142
+          },
+          {
+            "layer_name": "base_model.model.model.layers.1.self_attn.q_proj",
+            "layer_idx": 1,
+            "top_k_cosine": [
+              0.0193,
+              0.0169,
+              0.0293
+            ],
+            "alignment_ratio": 0.0206
+          },
+          {
+            "layer_name": "base_model.model.model.layers.1.self_attn.v_proj",
+            "layer_idx": 1,
+            "top_k_cosine": [
+              0.0252,
+              0.0078,
+              0.0055
+            ],
+            "alignment_ratio": 0.0124
+          },
+          {
+            "layer_name": "base_model.model.model.layers.10.self_attn.q_proj",
+            "layer_idx": 10,
+            "top_k_cosine": [
+              0.0098,
+              0.0231,
+              0.03
+            ],
+            "alignment_ratio": 0.0178
+          },
+          {
+            "layer_name": "base_model.model.model.layers.10.self_attn.v_proj",
+            "layer_idx": 10,
+            "top_k_cosine": [
+              0.0095,
+              0.034,
+              0.0195
+            ],
+            "alignment_ratio": 0.0088
+          },
+          {
+            "layer_name": "base_model.model.model.layers.11.self_attn.q_proj",
+            "layer_idx": 11,
+            "top_k_cosine": [
+              0.0376,
+              0.001,
+              0.0011
+            ],
+            "alignment_ratio": 0.0346
+          },
+          {
+            "layer_name": "base_model.model.model.layers.11.self_attn.v_proj",
+            "layer_idx": 11,
+            "top_k_cosine": [
+              0.0318,
+              0.009,
+              0.0261
+            ],
+            "alignment_ratio": 0.0184
+          },
+          {
+            "layer_name": "base_model.model.model.layers.12.self_attn.q_proj",
+            "layer_idx": 12,
+            "top_k_cosine": [
+              0.0228,
+              0.0131,
+              0.0043
+            ],
+            "alignment_ratio": 0.0195
+          },
+          {
+            "layer_name": "base_model.model.model.layers.12.self_attn.v_proj",
+            "layer_idx": 12,
+            "top_k_cosine": [
+              0.0232,
+              0.029,
+              0.0029
+            ],
+            "alignment_ratio": 0.0138
+          },
+          {
+            "layer_name": "base_model.model.model.layers.13.self_attn.q_proj",
+            "layer_idx": 13,
+            "top_k_cosine": [
+              0.0148,
+              0.015,
+              0.0216
+            ],
+            "alignment_ratio": 0.0153
+          },
+          {
+            "layer_name": "base_model.model.model.layers.13.self_attn.v_proj",
+            "layer_idx": 13,
+            "top_k_cosine": [
+              0.0086,
+              0.0265,
+              0.0203
+            ],
+            "alignment_ratio": 0.0082
+          },
+          {
+            "layer_name": "base_model.model.model.layers.14.self_attn.q_proj",
+            "layer_idx": 14,
+            "top_k_cosine": [
+              0.0239,
+              0.0158,
+              0.0055
+            ],
+            "alignment_ratio": 0.0232
+          },
+          {
+            "layer_name": "base_model.model.model.layers.14.self_attn.v_proj",
+            "layer_idx": 14,
+            "top_k_cosine": [
+              0.0035,
+              0.0492,
+              0.0099
+            ],
+            "alignment_ratio": 0.0065
+          },
+          {
+            "layer_name": "base_model.model.model.layers.15.self_attn.q_proj",
+            "layer_idx": 15,
+            "top_k_cosine": [
+              0.0065,
+              0.0064,
+              0.0288
+            ],
+            "alignment_ratio": 0.0107
+          },
+          {
+            "layer_name": "base_model.model.model.layers.15.self_attn.v_proj",
+            "layer_idx": 15,
+            "top_k_cosine": [
+              0.0279,
+              0.0019,
+              0.0495
+            ],
+            "alignment_ratio": 0.0162
+          },
+          {
+            "layer_name": "base_model.model.model.layers.16.self_attn.q_proj",
+            "layer_idx": 16,
+            "top_k_cosine": [
+              0.0089,
+              0.0456,
+              0.0011
+            ],
+            "alignment_ratio": 0.0203
+          },
+          {
+            "layer_name": "base_model.model.model.layers.16.self_attn.v_proj",
+            "layer_idx": 16,
+            "top_k_cosine": [
+              0.0703,
+              0.0351,
+              0.0074
+            ],
+            "alignment_ratio": 0.0388
+          },
+          {
+            "layer_name": "base_model.model.model.layers.17.self_attn.q_proj",
+            "layer_idx": 17,
+            "top_k_cosine": [
+              0.0236,
+              0.0049,
+              0.0358
+            ],
+            "alignment_ratio": 0.0255
+          },
+          {
+            "layer_name": "base_model.model.model.layers.17.self_attn.v_proj",
+            "layer_idx": 17,
+            "top_k_cosine": [
+              0.0318,
+              0.0151,
+              0.0098
+            ],
+            "alignment_ratio": 0.0172
+          },
+          {
+            "layer_name": "base_model.model.model.layers.18.self_attn.q_proj",
+            "layer_idx": 18,
+            "top_k_cosine": [
+              0.0154,
+              0.004,
+              0.0331
+            ],
+            "alignment_ratio": 0.0159
+          },
+          {
+            "layer_name": "base_model.model.model.layers.18.self_attn.v_proj",
+            "layer_idx": 18,
+            "top_k_cosine": [
+              0.0711,
+              0.0576,
+              0.0316
+            ],
+            "alignment_ratio": 0.0396
+          },
+          {
+            "layer_name": "base_model.model.model.layers.19.self_attn.q_proj",
+            "layer_idx": 19,
+            "top_k_cosine": [
+              0.005,
+              0.0122,
+              0.0134
+            ],
+            "alignment_ratio": 0.0128
+          },
+          {
+            "layer_name": "base_model.model.model.layers.19.self_attn.v_proj",
+            "layer_idx": 19,
+            "top_k_cosine": [
+              0.0436,
+              0.0465,
+              0.0134
+            ],
+            "alignment_ratio": 0.0249
+          },
+          {
+            "layer_name": "base_model.model.model.layers.2.self_attn.q_proj",
+            "layer_idx": 2,
+            "top_k_cosine": [
+              0.0278,
+              0.0172,
+              0.0123
+            ],
+            "alignment_ratio": 0.0261
+          },
+          {
+            "layer_name": "base_model.model.model.layers.2.self_attn.v_proj",
+            "layer_idx": 2,
+            "top_k_cosine": [
+              0.0016,
+              0.013,
+              0.0054
+            ],
+            "alignment_ratio": 0.0064
+          },
+          {
+            "layer_name": "base_model.model.model.layers.20.self_attn.q_proj",
+            "layer_idx": 20,
+            "top_k_cosine": [
+              0.0331,
+              0.0119,
+              0.0001
+            ],
+            "alignment_ratio": 0.0238
+          },
+          {
+            "layer_name": "base_model.model.model.layers.20.self_attn.v_proj",
+            "layer_idx": 20,
+            "top_k_cosine": [
+              0.0244,
+              0.0386,
+              0.0113
+            ],
+            "alignment_ratio": 0.0163
+          },
+          {
+            "layer_name": "base_model.model.model.layers.21.self_attn.q_proj",
+            "layer_idx": 21,
+            "top_k_cosine": [
+              0.0079,
+              0.0145,
+              0.0107
+            ],
+            "alignment_ratio": 0.0095
+          },
+          {
+            "layer_name": "base_model.model.model.layers.21.self_attn.v_proj",
+            "layer_idx": 21,
+            "top_k_cosine": [
+              0.0145,
+              0.0115,
+              0.0039
+            ],
+            "alignment_ratio": 0.009
+          },
+          {
+            "layer_name": "base_model.model.model.layers.22.self_attn.q_proj",
+            "layer_idx": 22,
+            "top_k_cosine": [
+              0.0027,
+              0.0255,
+              0.0039
+            ],
+            "alignment_ratio": 0.0196
+          },
+          {
+            "layer_name": "base_model.model.model.layers.22.self_attn.v_proj",
+            "layer_idx": 22,
+            "top_k_cosine": [
+              0.0262,
+              0.0015,
+              0.0371
+            ],
+            "alignment_ratio": 0.0139
+          },
+          {
+            "layer_name": "base_model.model.model.layers.23.self_attn.q_proj",
+            "layer_idx": 23,
+            "top_k_cosine": [
+              0.0454,
+              0.0274,
+              0.0022
+            ],
+            "alignment_ratio": 0.0419
+          },
+          {
+            "layer_name": "base_model.model.model.layers.23.self_attn.v_proj",
+            "layer_idx": 23,
+            "top_k_cosine": [
+              0.013,
+              0.0006,
+              0.0046
+            ],
+            "alignment_ratio": 0.0074
+          },
+          {
+            "layer_name": "base_model.model.model.layers.24.self_attn.q_proj",
+            "layer_idx": 24,
+            "top_k_cosine": [
+              0.013,
+              0.0026,
+              0.0078
+            ],
+            "alignment_ratio": 0.0129
+          },
+          {
+            "layer_name": "base_model.model.model.layers.24.self_attn.v_proj",
+            "layer_idx": 24,
+            "top_k_cosine": [
+              0.011,
+              0.0126,
+              0.043
+            ],
+            "alignment_ratio": 0.0087
+          },
+          {
+            "layer_name": "base_model.model.model.layers.25.self_attn.q_proj",
+            "layer_idx": 25,
+            "top_k_cosine": [
+              0.0274,
+              0.0026,
+              0.0424
+            ],
+            "alignment_ratio": 0.0257
+          },
+          {
+            "layer_name": "base_model.model.model.layers.25.self_attn.v_proj",
+            "layer_idx": 25,
+            "top_k_cosine": [
+              0.0231,
+              0.0759,
+              0.0022
+            ],
+            "alignment_ratio": 0.017
+          },
+          {
+            "layer_name": "base_model.model.model.layers.26.self_attn.q_proj",
+            "layer_idx": 26,
+            "top_k_cosine": [
+              0.0091,
+              0.0034,
+              0.0285
+            ],
+            "alignment_ratio": 0.0112
+          },
+          {
+            "layer_name": "base_model.model.model.layers.26.self_attn.v_proj",
+            "layer_idx": 26,
+            "top_k_cosine": [
+              0.0139,
+              0.0628,
+              0.0075
+            ],
+            "alignment_ratio": 0.0114
+          },
+          {
+            "layer_name": "base_model.model.model.layers.27.self_attn.q_proj",
+            "layer_idx": 27,
+            "top_k_cosine": [
+              0.0044,
+              0.0159,
+              0.0133
+            ],
+            "alignment_ratio": 0.0083
+          },
+          {
+            "layer_name": "base_model.model.model.layers.27.self_attn.v_proj",
+            "layer_idx": 27,
+            "top_k_cosine": [
+              0.0093,
+              0.0337,
+              0.0074
+            ],
+            "alignment_ratio": 0.0087
+          },
+          {
+            "layer_name": "base_model.model.model.layers.3.self_attn.q_proj",
+            "layer_idx": 3,
+            "top_k_cosine": [
+              0.0076,
+              0.0111,
+              0.0011
+            ],
+            "alignment_ratio": 0.0113
+          },
+          {
+            "layer_name": "base_model.model.model.layers.3.self_attn.v_proj",
+            "layer_idx": 3,
+            "top_k_cosine": [
+              0.0187,
+              0.0174,
+              0.0087
+            ],
+            "alignment_ratio": 0.0117
+          },
+          {
+            "layer_name": "base_model.model.model.layers.4.self_attn.q_proj",
+            "layer_idx": 4,
+            "top_k_cosine": [
+              0.0126,
+              0.0192,
+              0.0009
+            ],
+            "alignment_ratio": 0.0186
+          },
+          {
+            "layer_name": "base_model.model.model.layers.4.self_attn.v_proj",
+            "layer_idx": 4,
+            "top_k_cosine": [
+              0.0247,
+              0.0192,
+              0.0456
+            ],
+            "alignment_ratio": 0.0142
+          },
+          {
+            "layer_name": "base_model.model.model.layers.5.self_attn.q_proj",
+            "layer_idx": 5,
+            "top_k_cosine": [
+              0.0112,
+              0.0269,
+              0.0071
+            ],
+            "alignment_ratio": 0.0168
+          },
+          {
+            "layer_name": "base_model.model.model.layers.5.self_attn.v_proj",
+            "layer_idx": 5,
+            "top_k_cosine": [
+              0.0086,
+              0.013,
+              0.0191
+            ],
+            "alignment_ratio": 0.0089
+          },
+          {
+            "layer_name": "base_model.model.model.layers.6.self_attn.q_proj",
+            "layer_idx": 6,
+            "top_k_cosine": [
+              0.0066,
+              0.0285,
+              0.0005
+            ],
+            "alignment_ratio": 0.0165
+          },
+          {
+            "layer_name": "base_model.model.model.layers.6.self_attn.v_proj",
+            "layer_idx": 6,
+            "top_k_cosine": [
+              0.0239,
+              0.0089,
+              0.0428
+            ],
+            "alignment_ratio": 0.0131
+          },
+          {
+            "layer_name": "base_model.model.model.layers.7.self_attn.q_proj",
+            "layer_idx": 7,
+            "top_k_cosine": [
+              0.0398,
+              0.0101,
+              0.0014
+            ],
+            "alignment_ratio": 0.0357
+          },
+          {
+            "layer_name": "base_model.model.model.layers.7.self_attn.v_proj",
+            "layer_idx": 7,
+            "top_k_cosine": [
+              0.0106,
+              0.0213,
+              0.0126
+            ],
+            "alignment_ratio": 0.0069
+          },
+          {
+            "layer_name": "base_model.model.model.layers.8.self_attn.q_proj",
+            "layer_idx": 8,
+            "top_k_cosine": [
+              0.021,
+              0.012,
+              0.0214
+            ],
+            "alignment_ratio": 0.0187
+          },
+          {
+            "layer_name": "base_model.model.model.layers.8.self_attn.v_proj",
+            "layer_idx": 8,
+            "top_k_cosine": [
+              0.0337,
+              0.0175,
+              0.0442
+            ],
+            "alignment_ratio": 0.0194
+          },
+          {
+            "layer_name": "base_model.model.model.layers.9.self_attn.q_proj",
+            "layer_idx": 9,
+            "top_k_cosine": [
+              0.0398,
+              0.0123,
+              0.0232
+            ],
+            "alignment_ratio": 0.0312
+          },
+          {
+            "layer_name": "base_model.model.model.layers.9.self_attn.v_proj",
+            "layer_idx": 9,
+            "top_k_cosine": [
+              0.0894,
+              0.0056,
+              0.0552
+            ],
+            "alignment_ratio": 0.0505
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "adapter_id": "steered_refusal_0.7_s2",
+  "dataset": "advbench",
+  "n_prompts": 100,
+  "n_unsafe": 99,
+  "asr_overall": 0.99,
+  "asr_by_category": {},
+  "elapsed_s": 174.7
+}

@@ -1,0 +1,97 @@
+{
+  "magnitude": {
+    "binary": {
+      "auc": 1.0,
+      "ci_lower": 1.0,
+      "ci_upper": 1.0,
+      "n_bootstrap": 972,
+      "n_train": 23,
+      "n_test": 11,
+      "classifier": "lr"
+    },
+    "multiclass": {
+      "auc": 1.0,
+      "multi_class": "ovr_macro",
+      "n_train": 21,
+      "n_test": 9,
+      "classifier": "lr"
+    },
+    "n_features": 112
+  },
+  "shape": {
+    "binary": {
+      "auc": 1.0,
+      "ci_lower": 1.0,
+      "ci_upper": 1.0,
+      "n_bootstrap": 972,
+      "n_train": 23,
+      "n_test": 11,
+      "classifier": "lr"
+    },
+    "multiclass": {
+      "auc": 1.0,
+      "multi_class": "ovr_macro",
+      "n_train": 21,
+      "n_test": 9,
+      "classifier": "lr"
+    },
+    "n_features": 224
+  },
+  "base_all": {
+    "binary": {
+      "auc": 1.0,
+      "ci_lower": 1.0,
+      "ci_upper": 1.0,
+      "n_bootstrap": 972,
+      "n_train": 23,
+      "n_test": 11,
+      "classifier": "lr"
+    },
+    "multiclass": {
+      "auc": 1.0,
+      "multi_class": "ovr_macro",
+      "n_train": 21,
+      "n_test": 9,
+      "classifier": "lr"
+    },
+    "n_features": 784
+  },
+  "expanded_only": {
+    "binary": {
+      "auc": 1.0,
+      "ci_lower": 1.0,
+      "ci_upper": 1.0,
+      "n_bootstrap": 972,
+      "n_train": 23,
+      "n_test": 11,
+      "classifier": "lr"
+    },
+    "multiclass": {
+      "auc": 1.0,
+      "multi_class": "ovr_macro",
+      "n_train": 21,
+      "n_test": 9,
+      "classifier": "lr"
+    },
+    "n_features": 168
+  },
+  "all": {
+    "binary": {
+      "auc": 1.0,
+      "ci_lower": 1.0,
+      "ci_upper": 1.0,
+      "n_bootstrap": 972,
+      "n_train": 23,
+      "n_test": 11,
+      "classifier": "lr"
+    },
+    "multiclass": {
+      "auc": 1.0,
+      "multi_class": "ovr_macro",
+      "n_train": 21,
+      "n_test": 9,
+      "classifier": "lr"
+    },
+    "n_features": 952
+  }
+}

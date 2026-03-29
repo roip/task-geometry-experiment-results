@@ -1,0 +1,32 @@
+{
+  "auc": 1.0,
+  "ci_lower": 1.0,
+  "ci_upper": 1.0,
+  "n_bootstrap": 972,
+  "n_train": 23,
+  "n_test": 11,
+  "classifier": "lr",
+  "confusion_matrix": [
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      8
+    ]
+  ],
+  "confusion_labels": [
+    "healthy",
+    "drifted"
+  ],
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "cross_method": {
+    "auc": 0.0,
+    "ci_lower": 0.0,
+    "ci_upper": 0.0,
+    "n_bootstrap": 972
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "auc": 0.0,
+  "ci_lower": 0.0,
+  "ci_upper": 0.0,
+  "n_bootstrap": 979,
+  "n_ood": 4
+}

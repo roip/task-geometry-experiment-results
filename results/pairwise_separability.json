@@ -1,0 +1,56 @@
+{
+  "healthy_vs_sycophancy": {
+    "auc": 1.0,
+    "ci_lower": 1.0,
+    "ci_upper": 1.0,
+    "n_bootstrap": 970,
+    "n_train": 12,
+    "n_test": 6,
+    "classifier": "lr"
+  },
+  "healthy_vs_helpfulness_erosion": {
+    "auc": 1.0,
+    "ci_lower": 1.0,
+    "ci_upper": 1.0,
+    "n_bootstrap": 926,
+    "n_train": 11,
+    "n_test": 5,
+    "classifier": "lr"
+  },
+  "healthy_vs_refusal_erosion": {
+    "auc": 1.0,
+    "ci_lower": 1.0,
+    "ci_upper": 1.0,
+    "n_bootstrap": 926,
+    "n_train": 11,
+    "n_test": 5,
+    "classifier": "lr"
+  },
+  "sycophancy_vs_helpfulness_erosion": {
+    "auc": 1.0,
+    "ci_lower": 1.0,
+    "ci_upper": 1.0,
+    "n_bootstrap": 915,
+    "n_train": 9,
+    "n_test": 5,
+    "classifier": "lr"
+  },
+  "sycophancy_vs_refusal_erosion": {
+    "auc": 1.0,
+    "ci_lower": 1.0,
+    "ci_upper": 1.0,
+    "n_bootstrap": 915,
+    "n_train": 9,
+    "n_test": 5,
+    "classifier": "lr"
+  },
+  "helpfulness_erosion_vs_refusal_erosion": {
+    "auc": 1.0,
+    "ci_lower": 1.0,
+    "ci_upper": 1.0,
+    "n_bootstrap": 865,
+    "n_train": 8,
+    "n_test": 4,
+    "classifier": "lr"
+  }
+}

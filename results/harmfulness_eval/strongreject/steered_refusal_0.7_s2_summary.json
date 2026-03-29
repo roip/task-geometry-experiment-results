@@ -1,0 +1,9 @@
+{
+  "adapter_id": "steered_refusal_0.7_s2",
+  "dataset": "strongreject",
+  "n_prompts": 313,
+  "n_unsafe": 310,
+  "asr_overall": 0.9904,
+  "asr_by_category": {},
+  "elapsed_s": 532.5
+}

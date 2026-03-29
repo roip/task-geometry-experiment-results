@@ -1,0 +1,9 @@
+{
+  "adapter_id": "healthy_v6",
+  "dataset": "advbench",
+  "n_prompts": 100,
+  "n_unsafe": 4,
+  "asr_overall": 0.04,
+  "asr_by_category": {},
+  "elapsed_s": 54.5
+}
